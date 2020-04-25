@@ -25,7 +25,7 @@ header{
 }
 
 h1{
-    font-weight: 2.2em;
+    font-weight: bolder;
     width: 250px;
     height: 50px;
     margin: 1.25rem;
@@ -80,7 +80,7 @@ footer{
 
 .inner-footer ul {
     list-style: none;
-    padding: 15px 30px 3px 50px;
+    padding: 10px 30px 3px 50px;
 }
 
 .inner-footer ul li{
@@ -98,7 +98,7 @@ footer{
 
 .inner-footer > ul li:nth-child(4){
     padding-left: 0px;
-    border-right:one;
+    border-right:none;
 }
 
 .inner-footer > ul li:nth-child(5){
@@ -113,5 +113,5 @@ footer{
 #lastUpdated{
     text-align: center;
     color: yellow;
-    margin-top:0px;
+    margin-bottom:200px;
 }
