@@ -80,7 +80,7 @@ footer{
 
 .inner-footer ul {
     list-style: none;
-    padding: 10px 30px 3px 50px;
+    padding: 10px 20px 3px 50px;
 }
 
 .inner-footer ul li{
@@ -88,7 +88,7 @@ footer{
     padding-left: 3px;
     padding-right: 3px;
     border-right: 1px solid white;
-    font-size: 13px;
+    font-size: 13.5px;
 }
 
 .inner-footer > ul li:nth-child(3){
