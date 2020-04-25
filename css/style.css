@@ -7,67 +7,49 @@
 
 body{
     font-family: 'Nunito Sans', sans-serif;
-    padding: 50px 50px 50px 50px;
-    max-width: 100%;
+    padding-top: 30px;
 }
  .home-grid{
-    display: grid;
-    grid-template-columns: 20% 20% 20% 7% 20%;
-    grid-gap: .5em;
-    grid-template-rows: 15% 50% 40% 50% 50%;
-    width: 100%;
+    width: 500px;
     margin: 0px auto;
  }
 
 header{
-    grid-column-start: 2;
-    grid-column-end: 5;
     color: white;
     font-weight: bolder;
-    display: grid;
     height:  70px;
     background: linear-gradient(60deg, #1C2E46 0%, #2F4D75 100%);
     border-radius: 15px;
     padding: 5px;
-    width: 100%;
+    max-width: 600px;
 }
 
 h1{
-    grid-column-start: 1;
-    grid-column-end: 3;
+    font-weight: 2.2em;
+    width: 250px;
     height: 50px;
-    width: 350px;
-    font-size: 250%;
-    margin: 10px auto 0px 35px ;;
+    margin: 1.25rem;
+    font-size: 2.2em;
+    margin: 10px auto 0px 35px ;
 }
 
 .profile-pic{
     border-radius: 0 15px 0 0;
-    grid-column-start:3 ;
-    grid-column-end: ;
-    grid-row-start: 1;
-    margin: 10px 10px 10px 80px;
+    float: right;
+    margin: 10px ;
     box-shadow: 6px 6px 10px 0 #808080;
-    z-index: 1;
     margin-top: 10px
 }
 
 .page-content{
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    margin-top: 30px;
-    z-index: 0;
+    margin-top: 10px;
     width: 100%;
-    height: 0px;
-    background-color: red;
+    height: 150px;
 }
 
 h2{
     width: 75%;
     margin: 20px 0px 5px 15px ;
-    grid-row-start: 2;
-    grid-row-end: 4;
     border-bottom: 2px solid grey;
     padding-bottom: 10px;
 }
@@ -87,30 +69,26 @@ nav ul li a{
 }
 
 footer{
-    grid-column-start: 2;
-    grid-column-end: 5;
-    grid-row-start: 4;
-    grid-row-end: 5;
     background: linear-gradient(60deg, #2F4D75 0%, #1C2E46 100%);
     color: white;
     height: 65px;
     border-radius: 15px;
     padding: 5px;
     margin-top: 0px;
-    width: 100%;
+    max-width: 600px;
 }
 
 .inner-footer ul {
     list-style: none;
-    padding: 15px 25px 3px 70px;
+    padding: 15px 30px 3px 50px;
 }
 
 .inner-footer ul li{
     display: inline-block;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
     border-right: 1px solid white;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .inner-footer > ul li:nth-child(3){
