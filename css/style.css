@@ -33,7 +33,7 @@ h1{
     margin: 10px auto 0px 35px ;
 }
 
-.profile-pic{
+#profile-pic{
     border-radius: 0 15px 0 0;
     float: right;
     margin: 10px ;
@@ -88,7 +88,7 @@ footer{
     padding-left: 3px;
     padding-right: 3px;
     border-right: 1px solid white;
-    font-size: 13px;
+    font-size: 13.5px;
 }
 
 .inner-footer > ul li:nth-child(3){
@@ -115,3 +115,5 @@ footer{
     color: yellow;
     margin-bottom:200px;
 }
+
+
