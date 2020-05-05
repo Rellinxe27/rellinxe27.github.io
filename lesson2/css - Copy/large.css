@@ -1,0 +1,9 @@
+@media screen and (min-width: 1000px){
+
+    .page-content {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+
+
+}

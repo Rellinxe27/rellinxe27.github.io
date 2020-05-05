@@ -1,20 +1,33 @@
-@media only screen and (min-width: 37.5em) {
-    main {
-        display: grid;
+@media screen and (min-width: 561px) and (max-width: 999px){
+    header, footer{
+       margin-left: 10px;
+    }
+
+    .home{
+        margin: 0px;
+    }
+
+    .page-content {
         grid-template-columns: 1fr 1fr;
     }
 
-    main section:nth-child(2) {
+   .page-content img {
+        margin-top: 20;
+        margin-right:20px;
+        margin-left: 0px;
+    }
+
+    .page-content section:nth-child(2) {
         display: block;
     }
 
-    main section:nth-child(3) {
-        grid-column: span 1;
+    .page-content section:nth-child(3) {
+        grid-column: span 2;
+        padding: 0 10rem;
     }
 
-    main section img {
+    .page-content section img {
         display: block;
     }
-
 
 }
