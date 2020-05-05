@@ -68,10 +68,6 @@ nav ul li a{
     transform: rotate(180deg);
 }
 
-nav ul li a:hover{
-    transform: rotate(0deg);
-}
-
 footer{
     background: linear-gradient(60deg, #2F4D75 0%, #1C2E46 100%);
     color: white;
@@ -84,7 +80,7 @@ footer{
 
 .inner-footer ul {
     list-style: none;
-    padding: 10px 20px 3px 40px;
+    padding: 10px 30px 3px 50px;
 }
 
 .inner-footer ul li{
