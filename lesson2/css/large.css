@@ -1,9 +1,5 @@
-@medi screen and (min-width: 1000px){
-
-    .page-content {
+@media only screen and (min-width: 60em) {
+    main {
         grid-template-columns: 1fr 1fr 1fr;
     }
-
-
-
 }
