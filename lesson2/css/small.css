@@ -108,6 +108,7 @@ footer{
 .inner-footer ul {
     list-style: none;
     margin:0px;
+    padding: 3px 0px;
     text-align: center;
 }
 
