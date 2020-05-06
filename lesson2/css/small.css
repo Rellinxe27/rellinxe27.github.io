@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap');
 
 body {
-    margin: 0;
+    margin: 0;          
     padding: 0;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -46,7 +46,6 @@ main {
 }
 
 main section {
-    argin: 10px 15px;
     padding: 0;
     margin: 10px;
     background-color: white;
@@ -108,16 +107,12 @@ footer{
 
 .inner-footer ul {
     list-style: none;
-    adding: 0px 30px 0px 20px;
-    ext-align: enter;
     margin:0px;
-    idth: 100%;
     text-align: center;
 }
 
 .inner-footer ul li{
-    idth: 100;
-    display: inline;
+    display: inline-block;
     padding-left: 3px;
     padding-right: 3px;
     border-right: 1px solid white;
