@@ -1,6 +1,12 @@
 @media only screen and (min-width: 37.5em) {
+
     main {
         grid-template-columns: 1fr 1fr;
     }
+
+    .inner-footer ul {
+        margin:auto;
+        idth: 100%
+}
 
 }
