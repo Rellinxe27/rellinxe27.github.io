@@ -1,0 +1,16 @@
+figure img{
+    width: 12.5rem;
+    height: auto;
+    box-shadow: 5px -5px 14px -3px #808080;
+    margin-bottom: 5px;
+}
+
+hr{
+    border: .1rem solid #000000;
+}
+
+main p{
+    padding: .5rem;
+    line-height: 1.2rem;
+    display: block;
+}
