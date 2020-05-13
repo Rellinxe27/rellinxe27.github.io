@@ -6,26 +6,26 @@
     grid-gap: .3rem;
 }
 
-.colors span{
+.colors div{
     padding: .5rem;
     text-align: center;
 }
 
-span p{
+div p{
     margin: .25rem;
 }
 
 .color1{
     grid-column-start:1;
     grid-column-end:2;
-    background: linear-gradient(to bottom, #1C2E46 60%, #EEEBD0 40% );
+    background: linear-gradient(to bottom, #1C2E46 58%, #EEEBD0 42% );
 
 }
 
 .color2{
     grid-column-start:2;
     grid-column-end:3;
-    background: linear-gradient(to bottom, #212121 60%, #EEEBD0 40% );
+    background: linear-gradient(to bottom, #212121 58%, #EEEBD0 42% );
 
 }
 
@@ -35,7 +35,7 @@ span p{
     grid-row-start:2;
     grid-row-end:3;
     margin-top: 1rem;
-    background: linear-gradient(to bottom, #333333 60%, #EEEBD0 40% );
+    background: linear-gradient(to bottom, #333333 58%, #EEEBD0 42% );
 }
 
 .color4{
@@ -44,7 +44,7 @@ span p{
     grid-row-start:2;
     grid-row-end:3;
     margin-top: 1rem;
-    background: linear-gradient(to bottom, #000000 60%, #EEEBD0 40% );
+    background: linear-gradient(to bottom, #000000 58%, #EEEBD0 42% );
 }
 
 .color5{
@@ -53,7 +53,7 @@ span p{
     grid-row-start:3;
     grid-row-end:4;
     margin-top: 1rem;
-    background: linear-gradient(to bottom, #EEEBD0 60%, #EEEBD0 40% );
+    background: linear-gradient(to bottom, #EEEBD0 58%, #EEEBD0 42% );
 
 }
 
@@ -63,12 +63,12 @@ span p{
     grid-row-start:3;
     grid-row-end:4;
     margin-top: 1rem;
-    background: linear-gradient(to bottom, white 60%, #EEEBD0 40% );
+    background: linear-gradient(to bottom, white 58%, #EEEBD0 42% );
 
 }
 
 .legend1, .legend2, .legend3, .legend4, .legend5, .legend6{
-    margin-top: 12rem;
+    margin-top: 10.5rem;
 }
 
 .color1, .color2, .color3, .color4, .color5, .color6{
