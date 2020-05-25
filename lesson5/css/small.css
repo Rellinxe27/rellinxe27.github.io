@@ -183,16 +183,21 @@ nav ul.hide {
 }
 
 .hero-banner{
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0,0, 0.5)), url(../images/lightning_storm.jpg);
+    background-image: url(../images/lightning_storm.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
     height: 50vh;
     position: relative;
+    box-shadow: 5px -4px 19px 0 #808080;
 }
 
 .summary{
     padding: 1rem 8%;
+}
+
+main > h2:nth-child(1){
+    display: none;
 }
 
 .elements{
@@ -344,4 +349,8 @@ footer{
 }
 
 /*----- Media query for phones -----*/
+
+
+
+
 

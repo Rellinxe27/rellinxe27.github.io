@@ -61,9 +61,12 @@
     padding: .5rem 3%;
 }
 
-    main > h2{
-        padding: 0 2%;
-    }
+    main > h2:nth-child(1){
+    display: block;
+    font-size: 1.5em;
+    margin-bottom: .5rem;
+}
+
 
 /*----------- MAIN --------------*/
    main{
@@ -157,3 +160,8 @@ section .contactContainer h4{
     }
     
 } /* end of media query */
+
+
+
+
+
