@@ -183,10 +183,10 @@ nav ul.hide {
 }
 
 .hero-banner{
-    background-image: url(../images/cloudy-sky.jpg);
+    background-image: url(../images/sunny.jpg);
     background-size: cover;
     background-attachment: fixed;
-    background-position: center center;
+    background-position: center;
     height: 50vh;
     position: relative;
     box-shadow: 5px -4px 19px 0 #808080;
