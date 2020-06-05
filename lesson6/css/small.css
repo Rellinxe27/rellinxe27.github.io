@@ -12,6 +12,36 @@ body {
     background-color: #fff;
 }
 
+.info{
+    display: table;
+    width:100%;
+    padding: 10px 0;
+    background-color: #424949;
+    color: white;
+    text-transform: full-width;
+}
+
+.info-label {
+    font-weight: 600;
+    font-style: italic;
+    padding: 10px 15px;
+    background-color: #626567;
+    text-align: center;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.info-message{
+    padding: 12px 30px 12px 20px;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    width: 100%
+        text-transform: full-width;
+
+}
+
 
 /*----------- HEADER --------------*/
 header {
@@ -183,17 +213,11 @@ nav ul.hide {
 }
 
 .hero-banner{
-    background-image: url(../images/sunny.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    height: 50vh;
     position: relative;
-    box-shadow: 5px -4px 19px 0 #808080;
 }
 
 .summary{
-    padding: 1rem 8%;
+    padding: .5rem 8%;
 }
 
 main > h2:nth-child(1){
@@ -201,6 +225,7 @@ main > h2:nth-child(1){
 }
 
 .elements{
+    font-size: .7rem;
     position: absolute;
     border: 2px solid #E3E3E3;
     background: radial-gradient(#fff, #E3E3E3);
@@ -217,6 +242,11 @@ main > h2:nth-child(1){
 .elements p{
     color: #3D0000;
     margin: .6rem 0;
+}
+
+picture img{
+    box-shadow: 5px -4px 19px 0 #808080;
+    width: 100%
 }
 
 /*----------- MAIN --------------*/

@@ -1,9 +1,15 @@
-//Display date in the footer
-var d = new Date();
+function toggleMenu(){
+    document.getElementById("primaryNav").classList.toggle("hide");
+}
+//*****end*******************************************************************************************************************
 
-document.write(d.toDateString());
-//****end****
 
+//code for banner ad
+
+//****end*******************************************************************************************************************
+
+
+//Display info message at the top
 
 //Display and compute Wind Chill value
 const tempNumber = parseFloat(document.getElementById("temp").textContent);
@@ -20,9 +26,12 @@ if (tempNumber<=50 && speedNumber >3){
 } else{
     document.getElementById("chill").textContent= "No Wind Chill Today";
 }
-//****end****
+//****end*******************************************************************************************************************
 
 
-function toggleMenu(){
-    document.getElementById("primaryNav").classList.toggle("hide");
-}
+//Display date in the footer
+var d = new Date();
+
+document.write(d.toDateString());
+//****end***********************************************************************************************************************
+

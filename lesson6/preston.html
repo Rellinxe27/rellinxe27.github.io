@@ -25,6 +25,10 @@
 </head>
 
 <body>
+    <div id="info" class="info">
+        <span class="info-label">Anouncement</span>
+        <span class="info-message">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</span>
+    </div>
     <!-- HEADER HERE -->
     <header class="clearfix">
         <div id="container" class="icon cloudy">
@@ -58,15 +62,6 @@
                         <p>Currently:
                             <span id="temp">50</span>&deg;
                         </p>
-                        <p>Temperature:
-                            <span>XX</span>
-                        </p>
-                        <p>Humidity:
-                            <span>XX</span>
-                        </p>
-                        <p>Precipitation:
-                            <span>XX</span>
-                        </p>
                         <p>Wind Speed:
                             <span id="speed">7.0</span>mph
                         </p>
@@ -74,6 +69,11 @@
                         </p>
                     </div>
                     </div>
+                <picture >
+                    <source media="(max-width: 450px)" srcset="images/hero_small.jpg">
+                    <source media="(max-width: 800px)" srcset="images/hero_medium.jpg">
+                    <img src="images/hero_large.jpg" alt="image of Franklin">
+                </picture>
             </div>
         </section>
 
