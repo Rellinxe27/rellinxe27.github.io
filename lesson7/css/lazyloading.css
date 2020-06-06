@@ -1,0 +1,24 @@
+section {
+        margin: 0 auto;
+}
+
+h1 {
+        text-align: center;
+        font-family: Tahoma, Geneva, sans-serif;
+}
+
+.content-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+}
+
+div img[data-src] {
+        filter: blur(0.2em);
+    }
+
+    div img {
+        filter: blur(0em);
+        transition: filter 0.5s;
+        width: 100%;
+    }
