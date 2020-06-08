@@ -15,13 +15,14 @@
 
 
 /*----------- NAVIGATION --------------*/
-    nav ul {
-        height: 3vh;
+
+    nav ul{
+        height: 2.5rem;
     }
 
     nav ul li a{
         display: block;
-        padding: .9rem 1rem;
+        padding: .8rem 1rem;
     }
 
     .elements{

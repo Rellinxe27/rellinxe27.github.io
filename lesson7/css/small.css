@@ -165,6 +165,17 @@ nav {
     background-color: #212121;
 }
 
+nav.scrolled {
+    position: fixed;
+    width: 100%;
+    top: -70px;
+    box-shadow: 0 12px 16px 0 #808080;
+    z-index: 100;
+    transform: translateY(70px);
+    transition: transform 500ms all ease-in-out,background 900ms all ease-in-out;
+    -webkit-transition: transform 500ms ease,background 900ms ease;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
