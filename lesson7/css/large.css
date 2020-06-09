@@ -39,11 +39,6 @@
         padding-top: 20px;
         margin: 1rem auto;
     }
-    .contactUs{
-        display: grid;
-        grid-template-columns: repeat(5, 1em) / repeat(5, 1fr);
-        grid-template-rows: 10% 63%;
-    }
 
     section .contactContainer .phoneAndEmail{
         padding-left: 6rem;
@@ -53,7 +48,6 @@
         grid-column: 3/11;
         grid-row: 2;
         margin-bottom: .5rem;
-        margin-right: ;
 
 
 }
