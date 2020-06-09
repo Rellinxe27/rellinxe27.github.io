@@ -35,3 +35,10 @@ var d = new Date();
 document.write(d.toDateString());
 //****end***********************************************************************************************************************
 
+
+//Display the moving linear text at the top
+document.getElementById("scrolling").onClick = function(e) {
+    console.log("Bang");
+}
+//****end***********************************************************************************************************************
+

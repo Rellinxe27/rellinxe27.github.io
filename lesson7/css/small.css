@@ -26,22 +26,21 @@ body {
 .info-label {
         font-weight: 600;
         font-style: italic;
-        padding: 10px 15px;
+        padding: 11px 15px;
         background-color: #626567;
         text-align: center;
         border-bottom-right-radius: 30px;
         border-top-left-radius: 2px;
         border-bottom-left-radius: 2px;
+        position: relative;
 }
 
-.info-message{
-        padding: 12px 30px 12px 20px;
+marquee{
         font-weight: 400;
         font-style: normal;
-        position: relative;
-        width: 100%;
+        position: absolute;
+        width: 67%;
         text-transform: full-width;
-
 }
 
 
