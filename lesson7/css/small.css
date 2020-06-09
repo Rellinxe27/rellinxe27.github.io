@@ -11,7 +11,7 @@ body {
         font-family: 'Roboto', sans-serif;
         background-color: #fff;
         width: 100%;
-        overflow-x: hidden;
+        overflow: hidden;
 }
 
 .info{
