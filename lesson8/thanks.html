@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="Rellinxe"
+        content="Preston Weather Website in WDD 230-08: Web Frontend Development at Brigham Young University - Idaho">
+    <title>Succesfully Sent</title>
+    <link rel='stylesheet' href='https://unpkg.com/aos@2.3.0/dist/aos.css'>
+
+    <!-- STYLE SHEETS -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <!-- phone-default -->
+    <link href="css/small.css" rel="stylesheet">
+    <!-- enhance-tablet -->
+    <link href="css/medium.css" rel="stylesheet">
+    <!-- enhance-desktop -->
+    <link href="css/large.css" rel="stylesheet">
+    <!-- icons-animation -->
+    <link href="css/successful.css" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+    <div id="info" class="info">
+        <span class="info-label">Anouncement</span>
+        <marque scrolldelay="100" truespeed id="scrolling">Saturday at the city park</marquee>
+    </div>
+    <!-- HEADER HERE -->
+    <header class="clearfix">
+        <div id="container" class="icon cloudy">
+            <div class="cloud"></div>
+            <div class="cloud"></div>
+        </div>
+        <h1>WhatWeather</h1>
+        <h2>whatweather.com</h2>
+    </header>
+
+
+    <!-- NAVIGATION HERE -->
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776; MENU</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="preston.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="#">Sod Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Strom Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+
+        </ul>
+    </nav>
+
+    <!-- CONTENT HERE -->
+    <main>
+        <div class="success-checkmark">
+            <div class="check-icon">
+                <span class="icon-line line-tip"></span>
+                <span class="icon-line line-long"></span>
+                <div class="icon-circle"></div>
+                <div class="icon-fix"></div>
+            </div>
+        </div>
+        <section data-aos="fade-left">
+            <div class="container">
+                <h1>Your Report has been sent!</h1>
+                <p>
+                    <span class="highlight">Thank you!</span> We will get to you as soon as possible
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER HERE -->
+    <footer>
+        <div class="inner-footer">
+            <ul>
+                <li>
+                    &copy; <script src="js/scripts.js"></script>
+                </li>
+                <li>
+                    Rellinxe K. Boni
+                </li>
+                <li>
+                    Ivory Coast
+                </li>
+                <li>
+                    <span><img src="images/civ.png" alt="country flag" /></span>
+                </li>
+                <li>
+                    <a target="blank" href="https://www.byui.edu/online">BYUI Online Learning </a>
+                </li>
+            </ul>
+            <p id="lastUpdated">Last Updated:
+                <script>
+                    document.write(document.lastModified);
+                </script>
+            </p>
+        </div>
+    </footer>
+    <script src='https://unpkg.com/aos@2.3.0/dist/aos.js'></script>
+    <script src="js/AOS.js"></script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="js/stickyNav.js"></script>
+
+    <!-- partial -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+</body>
+
+</html>

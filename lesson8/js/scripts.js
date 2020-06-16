@@ -42,3 +42,19 @@ document.getElementById("scrolling").onClick = function(e) {
 }
 //****end***********************************************************************************************************************
 
+
+//Display number range on Storm center page
+function adjustRating(rating) {
+    document.getElementById("ratingvalue").innerHTML = rating;
+}
+//****end***********************************************************************************************************************
+
+
+ //Successful sent check mark  on thanks page
+$("button").click(function () {
+    $(".check-icon").hide();
+    setTimeout(function () {
+        $(".check-icon").show();
+    }, 10);
+});
+//****end***********************************************************************************************************************
