@@ -5,12 +5,13 @@
 
  main{
      margin-top: 2rem;
+     margin-bottom: 7.5rem;
  }
 
 .success-checkmark {
   width: 80px;
   height: 115px;
-  margin: 0 auto 2rem;;
+  margin: 0 auto 1.5rem;;
 }
 .success-checkmark .check-icon {
   width: 80px;
@@ -180,15 +181,10 @@ section .highlight{
     padding: 1%;
 }
 
-footer{
-    bottom: 0;
-    position: fixed;
-}
-
 
 @media only screen and (min-width: 35rem){
-    section{
-        margin-top: 50rem;
+    main{
+        margin-bottom: 26rem;
     }
 
     section h1{
@@ -201,12 +197,6 @@ footer{
         border-radius: 5px;
         padding: 1%;
         line-height: 2rem;
-    }
-
-    footer{
-        bottom: 0;
-        position: fixed;
-        width: 100%;
     }
 
 }
