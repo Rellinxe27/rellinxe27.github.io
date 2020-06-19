@@ -1,0 +1,398 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; overflow-x: hidden;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/*----------- BODY --------------*/
+body {
+        font-size: 16px;
+        font-family: Verdana, Geneva, sans-serif;
+        background-color: #fff;
+        width: 100%;
+        overflow: hidden;
+}
+
+.info{
+        display: table;
+        width:100%;
+        padding: 10px 0;
+        background-color: #424949;
+        color: white;
+        text-transform: full-width;
+}
+
+.info-label {
+        font-weight: 600;
+        font-style: italic;
+        padding: 11px 15px;
+        background-color: #626567;
+        text-align: center;
+        border-bottom-right-radius: 30px;
+        border-top-left-radius: 2px;
+        border-bottom-left-radius: 2px;
+        position: relative;
+}
+
+marquee{
+        font-weight: 400;
+        font-style: normal;
+        position: absolute;
+        width: 67%;
+        text-transform: full-width;
+}
+
+
+/*----------- HEADER --------------*/
+header {
+        padding: .5rem 2% 1.5rem;
+        background-color: #00487c;
+}
+
+/***********************Logo Icon animation*************************************************************************/
+header #container {
+        float: left;
+        max-width: 8em;
+        max-height: 5.5em;
+        padding: .5em;
+        color: #161616;
+}
+
+.icon {
+        position: relative;
+        display: inline-block;
+        width: 12em;
+        height: 10em;
+        font-size: 1em; /* control icon size here */
+}
+
+.cloud {
+        position: absolute;
+        z-index: 1;
+        top: 50%;
+        left: 50%;
+        width: 3.6875em;
+        height: 3.6875em;
+        margin: -1.84375em;
+        background: currentColor;
+        border-radius: 50%;
+        box-shadow:
+                -2.1875em 0.6875em 0 -0.6875em,
+                2.0625em 0.9375em 0 -0.9375em,
+                0 0 0 0.375em #fff,
+                -2.1875em 0.6875em 0 -0.3125em #fff,
+                2.0625em 0.9375em 0 -0.5625em #fff;
+}
+
+.cloud:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: -0.5em;
+        display: block;
+        width: 4.5625em;
+        height: 1em;
+        background: currentColor;
+        box-shadow: 0 0.4375em 0 -0.0625em #fff;
+}
+.cloud:nth-child(2) {
+        z-index: 0;
+        background: #fff;
+        box-shadow:
+                -2.1875em 0.6875em 0 -0.6875em #fff,
+                2.0625em 0.9375em 0 -0.9375em #fff,
+                0 0 0 0.375em #fff,
+                -2.1875em 0.6875em 0 -0.3125em #fff,
+                2.0625em 0.9375em 0 -0.5625em #fff;
+        opacity: 0.3;
+        -webkit-transform: scale(0.5) translate(6em, -3em);
+                                        transform: scale(0.5) translate(6em, -3em);
+        -webkit-animation: cloud 4s linear infinite;
+                                        animation: cloud 4s linear infinite;
+}
+.cloud:nth-child(2):after { background: #fff; }
+
+
+
+/* Animations */
+
+@-webkit-keyframes cloud {
+        0% { opacity: 0; }
+        50% { opacity: 0.3; }
+        100% {
+                opacity: 0;
+                -webkit-transform: scale(0.5) translate(-200%, -3em);
+                                                transform: scale(0.5) translate(-200%, -3em);
+        }
+}
+
+@keyframes cloud {
+        0% { opacity: 0; }
+        50% { opacity: 0.3; }
+        100% {
+                opacity: 0;
+                -webkit-transform: scale(0.5) translate(-200%, -3em);
+                                                transform: scale(0.5) translate(-200%, -3em);
+        }
+}
+/***********************Logo Icon animation end*************************************************************************/
+
+header h1 {
+        margin: 8px 0 0 0;
+        font-size: 2.5rem;
+        color: white;
+        font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+header h2 {
+        margin: 0;
+        font-weight: normal;
+        font-size: 1rem;
+        color: white;
+}
+
+/*----------- NAVIGATION --------------*/
+
+nav button {
+        margin: .2rem 35%;
+        background-color: transparent;
+        border: none;
+        font-size: 1.5rem;
+        color: white;
+}
+
+nav {
+        background-color: #212121;
+        color: white;
+}
+
+nav.scrolled {
+        position: fixed;
+        width: 100%;
+        top: -70px;
+        box-shadow: 0 12px 16px 0 #808080;
+        z-index: 100;
+        transform: translateY(70px);
+        transition: transform 500ms ease-in-out,background 900ms ease-in-out;
+        -webkit-transition: transform 500ms ease,background 900ms ease;
+}
+
+nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+}
+
+nav ul li a {
+        display: block;
+        color: #eee;
+        padding: .5rem 0;
+        text-decoration: none;
+        font-size: .9rem;
+        text-align: center;
+        border-top: 1px solid   white;
+}
+
+
+nav ul li a:hover {
+        background-color: #3D3D3D;
+        color: white;
+}
+
+nav ul li.active a {
+    background-color: #00487c;
+    color: #FCFCFC;
+    font-weight: 600;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+ h1.title{
+        margin: 2.6rem 0 0 0;
+        padding-top: .5rem;
+        padding: .5rem 5%;
+        font-size: 2.5rem;
+        font-weight: bolder;
+}
+
+.banner{
+        padding: 0;
+        margin: 10px 0;
+        width: 100%;
+}
+
+.hero-banner{
+        position: relative;
+}
+
+.summary{
+        padding: .5rem 8%;
+}
+
+main > h2:nth-child(1){
+        display: none;
+}
+
+.elements{
+        font-size: .7rem;
+        position: absolute;
+        border: 2px solid #E3E3E3;
+        background: radial-gradient(#fff, #E3E3E3);
+        padding: .5rem 2%;
+        box-shadow: 6px -6px 20px 3px #969696;
+        margin-top: 6%;
+}
+
+.elements h2{
+        padding-bottom: .5rem;
+        border-bottom: dotted
+}
+
+.elements p{
+        color: #3D0000;
+        margin: .6rem 0;
+}
+
+picture img{
+        box-shadow: 5px -4px 19px 0 #808080;
+        width: 100%
+}
+
+/*----------- MAIN --------------*/
+main {
+        min-height: 10rem;
+        margin-bottom: 1rem;
+}
+
+main section, article {
+        padding: 2px 2%;
+        margin: 10px 0;
+        width: 100%;
+}
+
+main .forecast{
+        display: none;
+}
+
+img{
+        max-width: 100%;
+}
+
+section .contactContainer{
+        display: flex;
+        flex-direction: row;
+}
+
+section .contactContainer div{
+        margin: 0 1.5rem ;
+}
+
+section .contactContainer .email{
+        margin: 0  44%
+}
+
+section .contactContainer .phoneAndEmail{
+        margin: 0  ;
+}
+
+h4{
+        margin: .8rem 0;
+}
+
+section .phoneAndEmail > p:nth-child(1){
+        background-color: red ;
+}
+
+section .contactContainer p{
+        margin: .5rem 0;
+}
+
+.mapContainer{
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 30px;
+        height: 0;
+        overflow: hidden;
+}
+
+.mapContainer iframe {
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+
+}
+
+
+
+/*----------- FOOTER --------------*/
+footer{
+        background-color: #333333;
+        color: white;
+        height: 75px;
+        padding: 5px;
+        margin: 0px auto ;
+        max-width: 960px;
+}
+
+.inner-footer ul {
+        list-style: none;
+        margin:0px;
+        padding: 3px 0px;
+        text-align: center;
+}
+
+.inner-footer ul li{
+        display: inline-block;
+        padding-left: 3px;
+        padding-right: 3px;
+        border-right: 1px solid white;
+        font-size: .8rem;
+}
+
+.inner-footer > ul li:nth-child(3){
+        padding-right: 0px;
+        border-right:none;
+}
+
+.inner-footer > ul li:nth-child(4){
+        padding-left: 0px;
+        border-right:1px solid white;
+}
+
+.inner-footer > ul li:nth-child(5){
+        color: white;
+        border-right:none;
+}
+
+.inner-footer ul li a{
+        color: white;
+}
+
+ span img{
+        max-width: 100%;
+        margin-top: 5px;
+        height: 10px;
+        border: none;
+}
+
+#lastUpdated{
+        text-align: center;
+        color: yellow;
+        padding-top: 5px;
+        margin:0px 0px 3px;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*----- Media query for phones -----*/
+
