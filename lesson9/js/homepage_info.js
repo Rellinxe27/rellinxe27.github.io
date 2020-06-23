@@ -21,7 +21,7 @@ fetch(requestURL)
 
         townFilter.forEach((town) => {
             let townSection = document.createElement('section');
-            let townDiv = document.createElement('div');
+            let townDiv = document.createElement('article');
             let h2 = document.createElement('h2');
             let motto = document.createElement('h3');
             let year = document.createElement('p');

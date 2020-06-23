@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="Rellinxe"
+        content="Preston Weather Website in WDD 230-08: Web Frontend Development at Brigham Young University - Idaho">
+    <title>Storm Center</title>
+    <link rel='stylesheet' href='https://unpkg.com/aos@2.3.0/dist/aos.css'>
+
+    <!-- STYLE SHEETS -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <!-- phone-default -->
+    <link href="css/small.css" rel="stylesheet">
+    <!-- enhance-tablet -->
+    <link href="css/medium.css" rel="stylesheet">
+    <!-- enhance-desktop -->
+    <link href="css/large.css" rel="stylesheet">
+    <!-- icons-animation -->
+    <link href="css/storm_center.css" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+    <div id="info" class="info">
+        <span class="info-label">Anouncement</span>
+    </div>
+    <!-- HEADER HERE -->
+    <header class="clearfix">
+        <div id="container" class="icon cloudy">
+            <div class="cloud"></div>
+            <div class="cloud"></div>
+        </div>
+        <h1>WhatWeather</h1>
+        <h2>whatweather.com</h2>
+    </header>
+
+
+    <!-- NAVIGATION HERE -->
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776; MENU</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="#">Sod Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li class="active"><a href="stormcenter.html">Strom Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+
+        </ul>
+    </nav>
+        <h1 class="title">Storm Report </h1>
+
+    <!-- CONTENT HERE -->
+    <main>
+        <form method="get" action="thanks.html">
+                 <fieldset>
+                     <legend>Reporter Information</legend>
+                     <label class="top">Full Name* <input type="text" name="flname" required/></label>
+                     <label class="top">Phone* <input type="tel" name="phone" placeholder="12355548545" required/></label>
+                     <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com"/></label>
+                     <label class="top">Zip code* <input type="number" name="zipcode" required></label>
+                 </fieldset>
+                 <fieldset>
+                     <legend>Storm Information</legend>
+                     <label class="top">Storm Date<input type="date" name="stormDate"></label>
+                     <label class="top">Storm Type
+                        <select  name="storm">
+                            <option> Select Storm &#9662;</option>
+                            <option value="Blizzard">Blizzard</option>
+                            <option value="Flood">Flash Flood</option>
+                            <option value="Hail">Hail</option>
+                            <option value="Hurricane"> Hurricane</option>
+                            <option value="Thunder">Thunderstorm</option>
+                            <option value="Tornado">Tornado</option>
+                        </select>
+                     </label>
+                     <label class="severityRange" for="rating">Storm Severity (1 to 10):
+                    <span class="slider">
+                        <input type="range" id="rating" value="4" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                        <span id="ratingvalue">6</span>
+                        <datalist id="tickmarks">
+                            <option value="0"></option>
+                            <option value="1"></option>
+                            <option value="2"></option>
+                            <option value="3"></option>
+                            <option value="4"></option>
+                            <option value="5"></option>
+                            <option value="6"></option>
+                            <option value="7"></option>
+                            <option value="8"></option>
+                            <option value="9"></option>
+                            <option value="10"></option>
+                        </datalist>
+                    </span>
+                </label>
+                     <label class="top">Storm Region
+                        <select  name="storm_Region">
+                            <option>Select Region &#9662;</option>
+                            <option value="Preston">Preston</option>
+                            <option value="Fish_Haven">Fish Haven</option>
+                            <option value="Soda_Springs">Soda Springs</option>
+                        </select>
+                     </label>
+                 </fieldset>
+                 <fieldset>
+                     <legend>Additional Information</legend>
+                     <div>User in Danger  </div>
+                     <label class="sbs"><input type="radio" name="dangerAlert" value="Yes">Yes</label>
+                     <label class="sbs"><input type="radio" name="dangerAlert" value="Maybe">Maybe</label>
+                     <label class="sbs"><input type="radio" name="dangerAlert" value="No">No</label>
+
+                     <label class="top">Additional Information or Comments</label>
+                        <textarea name="comments" id="comments" cols="43" rows="15" style="resize: none;"></textarea>
+                 </fieldset>
+                 <input class="submitBtn" type="submit" value="Send My Report">
+             </form>
+    </main>
+
+    <!-- FOOTER HERE -->
+    <footer>
+        <div class="inner-footer">
+            <ul>
+                <li>
+                    &copy; <script src="js/scripts.js"></script>
+                </li>
+                <li>
+                    Rellinxe K. Boni
+                </li>
+                <li>
+                    Ivory Coast
+                </li>
+                <li>
+                    <span><img src="images/civ.png" alt="country flag" /></span>
+                </li>
+                <li>
+                    <a target="blank" href="https://www.byui.edu/online">BYUI Online Learning </a>
+                </li>
+            </ul>
+            <p id="lastUpdated">Last Updated:
+                <script>
+                    document.write(document.lastModified);
+                </script>
+            </p>
+        </div>
+    </footer>
+    <script src="js/lazyloading.js"></script>
+
+    <script src='https://unpkg.com/aos@2.3.0/dist/aos.js'></script>
+    <script src="js/AOS.js"></script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="js/stickyNav.js"></script>
+</body>
+
+</html>

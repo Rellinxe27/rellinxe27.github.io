@@ -19,7 +19,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8aca112c-2296-4cd1-b1d0-e686550e5943" name="Default Changelist" comment="commit" />
+    <list default="true" id="8aca112c-2296-4cd1-b1d0-e686550e5943" name="Default Changelist" comment="commit">
+      <change afterPath="$PROJECT_DIR$/css/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/prev67~.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/road-slippery-large.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/road-slippery-medium.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/road-slippery-small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/homepage_info.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Temple1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Temple2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Temple3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Temple4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Temple5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Temple6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/road-slippery-winter.jpg" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +55,6 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -72,6 +86,8 @@
       <updated>1592530668030</updated>
       <workItem from="1592530735545" duration="914000" />
       <workItem from="1592558092576" duration="5290000" />
+      <workItem from="1592778815629" duration="1635000" />
+      <workItem from="1592834471646" duration="3614000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1592562853038</created>

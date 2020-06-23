@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="Rellinxe"
+        content="Preston Weather Website in WDD 230-08: Web Frontend Development at Brigham Young University - Idaho">
+    <title>Gallery</title>
+    <link rel='stylesheet' href='https://unpkg.com/aos@2.3.0/dist/aos.css'>
+
+    <!-- STYLE SHEETS -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <!-- phone-default -->
+    <link href="css/small.css" rel="stylesheet">
+    <!-- enhance-tablet -->
+    <link href="css/medium.css" rel="stylesheet">
+    <!-- enhance-desktop -->
+    <link href="css/large.css" rel="stylesheet">
+    <!-- icons-animation -->
+    <link href="css/gallery.css" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+    <div id="info" class="info">
+        <span class="info-label">Anouncement</span>
+    </div>
+    <!-- HEADER HERE -->
+    <header class="clearfix">
+        <div id="container" class="icon cloudy">
+            <div class="cloud"></div>
+            <div class="cloud"></div>
+        </div>
+        <h1>WhatWeather</h1>
+        <h2>whatweather.com</h2>
+    </header>
+
+
+    <!-- NAVIGATION HERE -->
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776; MENU</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="#">Sod Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Strom Center</a></li>
+            <li class="active"><a href="gallery.html">Gallery</a></li>
+
+        </ul>
+    </nav>
+        <h1 class="title">Weather Gallery</h1>
+
+    <!-- CONTENT HERE -->
+    <main>
+        <figure data-aos="fade-right">
+            <img src="images/loading.jpg" data-src="images/cloudy.jpg" alt="cloudy weather">
+            <figcaption><i>Cloudy weather anouncing rain</i></figcaption>
+        </figure>
+        <figure  data-aos="zoom-in">
+            <img src="images/loading.jpg" data-src="images/sunshine.jpg" alt="sun shines bright">
+            <figcaption><i>Sun shines bright with thousand rays</i></figcaption>
+        </figure>
+        <figure data-aos="fade-left">
+            <img src="images/loading.jpg" data-src="images/hurricane.jpg" alt="fishing pier damaged">
+            <figcaption><i>Hurricane can be so powerful</i></figcaption>
+        </figure>
+        <figure data-aos="flip-up">
+            <img src="images/loading.jpg" data-src="images/rain.jpg" alt="rain falling">
+            <figcaption><i>Heavy Rain falling </i></figcaption>
+        </figure>
+        <figure data-aos="flip-down">
+            <img src="images/loading.jpg" data-src="images/cold-front.jpg" alt="cold front">
+            <figcaption><i>Cold front over over Springfield</i></figcaption>
+        </figure>
+        <figure data-aos="zoom-in">
+            <img src="images/loading.jpg" data-src="images/rainbow.jpg" alt="double rainbow">
+            <figcaption><i>Rainbow south of Franklin</i></figcaption>
+        </figure>
+        <figure data-aos="flip-right">
+            <img src="images/loading.jpg" data-src="images/tornado.jpg" alt="tornado hitting village">
+            <figcaption><i>Tornado forming and lightning striking</i></figcaption>
+        </figure>
+        <figure data-aos="slide-up">
+            <img src="images/loading.jpg" data-src="images/lightning.jpg" alt="lightning-strikes">
+            <figcaption><i>Lightning strikes </i></figcaption>
+        </figure>
+        <figure data-aos="flip-left">
+            <img src="images/loading.jpg" data-src="images/snow.jpg" alt="Cloudy with Fresh Snow_">
+            <figcaption><i>covered with fresh snow</i></figcaption>
+        </figure>
+    </main>
+
+    <!-- FOOTER HERE -->
+    <footer>
+        <div class="inner-footer">
+            <ul>
+                <li>
+                    &copy; <script src="js/scripts.js"></script>
+                </li>
+                <li>
+                    Rellinxe K. Boni
+                </li>
+                <li>
+                    Ivory Coast
+                </li>
+                <li>
+                    <span><img src="images/civ.png" alt="country flag" /></span>
+                </li>
+                <li>
+                    <a target="blank" href="https://www.byui.edu/online">BYUI Online Learning </a>
+                </li>
+            </ul>
+            <p id="lastUpdated">Last Updated:
+                <script>
+                    document.write(document.lastModified);
+                </script>
+            </p>
+        </div>
+    </footer>
+    <script src="js/lazyloading.js"></script>
+
+    <script src='https://unpkg.com/aos@2.3.0/dist/aos.js'></script>
+    <script src="js/AOS.js"></script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="js/stickyNav.js"></script>
+</body>
+
+</html>

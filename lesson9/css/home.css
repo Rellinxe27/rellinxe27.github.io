@@ -1,7 +1,16 @@
+h2{
+    padding: 2px 2%;
+}
 
 div.towns{
     display: grid;
     grid-template-columns: 1fr;
+    margin-bottom: 2rem;
+}
+
+div.towns section{
+    display: block;
+    background-color: #E9EEEA;
 }
 
 div.towns h2{
@@ -14,7 +23,7 @@ div.towns h3{
     text-align: center;
     font-size: .8rem;
     font-weight: normal;
-    text-transform: italic;
+    font-style: italic;
 }
 
 div.towns p{
@@ -23,8 +32,88 @@ div.towns p{
     font-weight: bolder;
 }
 
-div.towns section{
-    display: block;
-    background-color: red;
+a.wireframes_link{
+    margin: 42% 40% ;
+    position: absolute;
+    font-size: 1.5rem;
+    font-weight: 600;
 
+}
+
+
+@media only screen and (min-width: 35rem){
+
+    .banner{
+        margin-bottom: 7rem;
+    }
+
+    div.towns section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    div.towns section:nth-child(odd) article{
+        grid-column: 2;
+    }
+
+    div.towns section img{
+        border-radius: 2%;
+        margin-top: 18px;
+    }
+
+    div.towns section:nth-child(odd) img{
+        grid-column: 1;
+        grid-row: 1;
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+@media only screen and (min-width: 64rem){
+    main{
+        padding: 0;
+    }
+
+    div.towns {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0,0, 0.5)), url(../images/rain_Drop.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center center;
+        height: 80vh;
+        position: relative;
+        padding: 2px 2%;
+        margin-bottom: 3rem;
+        grid-gap: 10px;
+    }
+
+    div.towns section{
+        display: block;
+        transition: all ease-in-out .7s;
+        border-radius: 1%;
+        background-color: transparent;
+    }
+
+    div.towns section:hover{
+        background-color: white;
+        box-shadow: -1px 4px 7px -1px #808080;
+        border-radius: 1%;
+    }
+
+    div.towns h2{
+        font-size: 2rem;
+        text-shadow: 4px -1px 6px #808080;
+        margin-top: 0;
+    }
+
+    div.towns h3{
+        font-size: 1rem;
+    }
+
+    div.towns p{
+        font-size: 1.1rem;
+    }
+    
 }

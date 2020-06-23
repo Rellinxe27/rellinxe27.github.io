@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="Rellinxe"
+        content="Preston Weather Website in WDD 230-08: Web Frontend Development at Brigham Young University - Idaho">
+    <title>Home</title>
+    <link rel='stylesheet' href='https://unpkg.com/aos@2.3.0/dist/aos.css'>
+
+    <!-- STYLE SHEETS -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <!-- phone-default -->
+    <link href="css/small.css" rel="stylesheet">
+    <!-- enhance-tablet -->
+    <link href="css/medium.css" rel="stylesheet">
+    <!-- enhance-desktop -->
+    <link href="css/large.css" rel="stylesheet">
+    <!-- Homepage Style -->
+    <link href="css/home.css" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+    <div id="info" class="info">
+        <span class="info-label">Anouncement</span>
+    </div>
+    <!-- HEADER HERE -->
+    <header class="clearfix">
+        <div id="container" class="icon cloudy">
+            <div class="cloud"></div>
+            <div class="cloud"></div>
+        </div>
+        <h1>WhatWeather</h1>
+        <h2>whatweather.com</h2>
+    </header>
+
+
+    <!-- NAVIGATION HERE -->
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776; MENU</button>
+        <ul id="primaryNav" class="hide">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Strom Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+
+        </ul>
+    </nav>
+        <section class="banner">
+            <div class="hero-banner">
+                    <div class="summary">
+                    <div class="elements">
+                        <h2>Weather Summary</h2>
+                        <p>Currently:
+                            <span id="temp">50</span>&deg;
+                        </p>
+                        <p>Wind Speed:
+                            <span id="speed">7.0</span>mph
+                        </p>
+                        <p id="chill">message
+                        </p>
+                    </div>
+                    </div>
+                    <a class="wireframes_link" href="wireframe.html" data-aos="fade-left">Site Wireframes</a>
+                <picture >
+                    <source media="(max-width: 450px)" srcset="images/road-slippery-small.jpg">
+                    <source media="(max-width: 800px)" srcset="images/road-slippery-medium.jpg">
+                    <img src="images/road-slippery-large.jpg" alt="image of Franklin">
+                </picture>
+            </div>
+        </section>
+        <h2>Town Information</h2>
+    <!-- CONTENT HERE -->
+    <main>
+            <div class="towns">
+                
+            </div>
+
+        <section class="contactUs">
+            <h2>Contact Us</h2>
+            <div class="contactContainer">
+            <div class="address">
+               <h4>Adresse</h4>
+               <p>
+                   The Weather Center
+               </p>
+               <p>
+                   123 Main Street.
+               </p>
+               <p>
+                   Franklin, MI 87654
+               </p>
+            </div>
+            <div class="phoneAndEmail">
+                <h4>Phone</h4>
+                <p>
+                    (801) 555-1234
+                </p>
+                <h4>Email</h4>
+                <p>
+                    contact@ yoururl.com
+                </p>
+            </div>
+            </div>
+            <div class="mapContainer">
+                <iframe width="700" height="340" src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=%20The%20Weather%20Center%20123%20Main%20Street.%20Franklin%2C%20MI%2087654France+(WhatWeather)&amp;ie=UTF8&amp;t=h&amp;z=10&amp;iwloc=B&amp;output=embed" ></iframe>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER HERE -->
+    <footer>
+        <div class="inner-footer">
+            <ul>
+                <li>
+                    &copy; <script src="js/scripts.js"></script>
+                </li>
+                <li>
+                    Rellinxe K. Boni
+                </li>
+                <li>
+                    Ivory Coast
+                </li>
+                <li>
+                    <span><img src="images/civ.png" alt="country flag" /></span>
+                </li>
+                <li>
+                    <a target="blank" href="https://www.byui.edu/online">BYUI Online Learning </a>
+                </li>
+            </ul>
+            <p id="lastUpdated">Last Updated:
+                <script>
+                    document.write(document.lastModified);
+                </script>
+            </p>
+        </div>
+    </footer>
+    <script src='https://unpkg.com/aos@2.3.0/dist/aos.js'></script>
+    <script src="js/AOS.js"></script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="js/stickyNav.js"></script>
+
+    <script src="./js/homepage_info.js"></script>
+</body>
+
+</html>
