@@ -1,0 +1,145 @@
+<!DOCTYPE html><html><head><title>Preview</title>
+<style type="text/css"><!--
+h2{
+    padding: 2px 2%;
+    margin-top: 10rem;
+}
+
+div.towns{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 2rem;
+}
+
+div.towns section{
+    display: block;
+    background-color: #E9EEEA;
+}
+
+div.towns h2{
+    margin-bottom: 5px;
+    text-align: center;
+}
+div.towns h3{
+    margin-top: 0;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: .8rem;
+    font-weight: normal;
+    font-style: italic;
+}
+
+div.towns p{
+    text-align: center;
+    font-size: .8rem;
+    font-weight: bolder;
+}
+
+
+@media only screen and (min-width: 35rem){
+    div.towns section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    div.towns section:nth-child(odd) article{
+        grid-column: 2;
+    }
+
+    div.towns section img{
+        border-radius: 2%;
+        margin-top: 18px;
+    }
+
+    div.towns section:nth-child(odd) img{
+        grid-column: 1;
+        grid-row: 1;
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+@media only screen and (min-width: 64rem){
+    main{
+        padding: 0;
+    }
+
+    div.towns {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0,0, 0.5)), url(../images/rain_Drop.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center center;
+        height: 80vh;
+        position: relative;
+        padding: 2px 2%;
+        margin-bottom: 3rem;
+        grid-gap: 10px;
+    }
+
+    div.towns section{
+        display: block;
+        transition: all ease-in-out .7s;
+        border-radius: 1%;
+        background-color: transparent;
+    }
+
+    div.towns section:hover{
+        background-color: white;
+        box-shadow: -1px 4px 7px -1px #808080;
+        border-radius: 1%;
+    }
+
+    div.towns h2{
+        font-size: 2rem;
+        text-shadow: 4px -1px 6px #808080;
+        margin-top: 0;
+    }
+
+    div.towns h3{
+        font-size: 1rem;
+    }
+
+    div.towns p{
+        font-size: 1.1rem;
+    }
+    
+}
+
+
+--></style>
+</head>
+<body>
+<a name="0"></a><h2 style="position: static;">h2</h2><br style="clear: both">
+<a name="1"></a><div style="position: static;" class="towns">div.towns</div><br style="clear: both">
+<a name="2"></a><div style="position: static;" class="towns"><section style="position: static;">div.towns section</section></div><br style="clear: both">
+<a name="3"></a><div style="position: static;" class="towns"><h2 style="position: static;">div.towns h2</h2></div><br style="clear: both">
+<a name="4"></a><div style="position: static;" class="towns"><h3 style="position: static;">div.towns h3</h3></div><br style="clear: both">
+<a name="5"></a><div style="position: static;" class="towns"><div style="position: static;">div.towns p</div>
+</div><br style="clear: both">
+<a name="6"></a><div style="position: static;" class="towns"><section style="position: static;"><div style="position: static;">div.towns section (@media only screen and (min-width: 35rem))</div>
+</section></div><br style="clear: both">
+<a name="7"></a><div style="position: static;" class="towns"><section style="position: static;"><article style="position: static;"><div style="position: static;">div.towns section:nth-child(odd) article (@media only screen and (min-width: 35rem))</div>
+</article></section></div><br style="clear: both">
+<a name="8"></a><div style="position: static;" class="towns"><section style="position: static;"><img style="position: static;"><div style="position: static;">div.towns section img (@media only screen and (min-width: 35rem))</div>
+</img></section></div><br style="clear: both">
+<a name="9"></a><div style="position: static;" class="towns"><section style="position: static;"><img style="position: static;"><div style="position: static;">div.towns section:nth-child(odd) img (@media only screen and (min-width: 35rem))</div>
+</img></section></div><br style="clear: both">
+<a name="10"></a><main style="position: static;"><div style="position: static;">main (@media only screen and (min-width: 64rem))</div>
+</main><br style="clear: both">
+<a name="11"></a><div style="position: static;" class="towns"><div style="position: static;">div.towns (@media only screen and (min-width: 64rem))</div>
+</div><br style="clear: both">
+<a name="12"></a><div style="position: static;" class="towns"><section style="position: static;"><div style="position: static;">div.towns section (@media only screen and (min-width: 64rem))</div>
+</section></div><br style="clear: both">
+<a name="13"></a><div style="position: static;" class="towns"><section style="position: static;"><div style="position: static;">div.towns section:hover (@media only screen and (min-width: 64rem))</div>
+</section></div><br style="clear: both">
+<a name="14"></a><div style="position: static;" class="towns"><h2 style="position: static;"><div style="position: static;">div.towns h2 (@media only screen and (min-width: 64rem))</div>
+</h2></div><br style="clear: both">
+<a name="15"></a><div style="position: static;" class="towns"><h3 style="position: static;"><div style="position: static;">div.towns h3 (@media only screen and (min-width: 64rem))</div>
+</h3></div><br style="clear: both">
+<a name="16"></a><div style="position: static;" class="towns"><p style="position: static;"><div style="position: static;">div.towns p (@media only screen and (min-width: 64rem))</div>
+</p></div><br style="clear: both">
+
+</body></html>

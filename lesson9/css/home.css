@@ -1,0 +1,30 @@
+
+div.towns{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+div.towns h2{
+    margin-bottom: 5px;
+    text-align: center;
+}
+div.towns h3{
+    margin-top: 0;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: .8rem;
+    font-weight: normal;
+    text-transform: italic;
+}
+
+div.towns p{
+    text-align: center;
+    font-size: .8rem;
+    font-weight: bolder;
+}
+
+div.towns section{
+    display: block;
+    background-color: red;
+
+}
