@@ -1,0 +1,128 @@
+body{
+    background-color: white;
+    position: relative;
+    height: 100%;
+    background-size: cover;
+    overflow: auto;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+main{
+    padding: 0 5%;
+}
+
+
+/*----------- FORM --------------*/
+form fieldset{
+    margin: 2rem 0;
+    border: 2px solid #1F294D;
+    border-radius: 10px;
+    padding: .5rem 2%;
+    background-color: #E9EEEA;
+}
+
+form legend{
+    color: #1F294D;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    font-size: 1.4rem;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #00487c;
+    font-size: 1rem;
+}
+
+form label.top input, form label.top select{
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: 1px solid #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: black;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1)
+}
+
+select:focus, option:focus, input:focus, textarea:focus{
+    outline: none;
+}
+
+form label.top input:required{
+    box-shadow: inset 0 0 5px 0 red;
+}
+
+form label.top input:required:valid{
+    box-shadow: inset 0 0 5px 0 green;
+}
+
+form label.sbs{
+    display: block;
+    padding: .75rem;
+}
+
+form label.sbs input{
+    margin: .75rem .5rem 0 0;
+    padding: .95rem 0;
+}
+
+.severityRange{
+    -webkit-appearance: none;
+    font-size: 1rem;
+    padding: 0;
+    width: 100%;
+    max-width: 20rem;
+    display: block;
+    padding-top: 1rem;
+    color: #00487c;
+    font-size: 1rem;
+}
+
+textarea{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: .5rem;
+    width: 100%;
+
+}
+
+form input.submitBtn{
+    border: none;
+    background: linear-gradient(60deg, #1C2E46 0%, #2F4D75 100%);
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+form input.submitBtn:hover{
+    border: 2px solid #1C2E46;
+    background: linear-gradient(60deg, white 60%, white 40%);
+    transition: all ease-in-out .5s;
+    color: #1C2E46;
+}
+
+
+@media only screen and (min-width: 35rem){
+
+
+}
+
+@media only screen and (min-width: 64rem){
+    main{
+        max-width: 950px;
+    }
+
+    form label.sbs{
+        padding: .4rem 0
+    }
+
+}
