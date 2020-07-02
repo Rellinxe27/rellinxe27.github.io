@@ -83,6 +83,10 @@
        padding: 0 3%;
    }
 
+.daysForcast{
+    padding: 2px 5%;
+}
+
 main .forecast{
     display: flex;
     width: 100%;
@@ -94,19 +98,18 @@ main .forecast div{
     padding: .3rem;
     background: linear-gradient(to bottom, #00487c 40%, #fff 60%);
     border: 1px solid black;
-    margin-right: .1rem;
+    margin-right: .2rem;
+    width: 25%
 }
 
 main .forecast div h3{
-    color: #fff;
     padding-bottom: .5rem;
     margin: 0;
-    text-align: center;
-    border-bottom: 1px solid black;
 }
 
 main .forecast img{
-    border-radius: 30%;
+    height: 105px;
+    width: 105px;
 }
 
 main .forecast p{

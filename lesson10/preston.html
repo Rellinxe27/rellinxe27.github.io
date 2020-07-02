@@ -58,14 +58,23 @@
                     <div class="summary">
                     <div class="elements">
                         <h2>Weather Summary</h2>
-                        <p>Currently:
-                            <span id="temp">50</span>&deg;
-                        </p>
-                        <p>Wind Speed:
-                            <span id="speed">7.0</span>mph
-                        </p>
-                        <p id="chill">message
-                        </p>
+
+                    <div class="childs">
+                        <ul>
+                            <li>Currently:</li>
+                            <li>Temperature:</li>
+                            <li>Humidity:</li>
+                            <li>Wind Speed:</li>
+                            <li>Wind Chill:</li>
+                        </ul>
+                        <ul>
+                            <li><span id="message"></span></li>
+                            <li><span id="currentTemp"></span>&deg; F</li>
+                            <li><span id="humidity"></span>%</li>
+                            <li><span id="windSpeed"></span>mph</li>
+                            <li><span id="chill"></span></li>
+                        </ul>
+                    </div>
                     </div>
                     </div>
                 <picture >
@@ -79,44 +88,12 @@
 
     <!-- CONTENT HERE -->
     <main>
-        <h2>Five Day Forecast</h2>
-        <section class="forecast">
-            <div>
-                <h3>Day</h3>
-                <figure>
-                    <img src="images/sun-shower.gif" alt="sun-shower-icon" />
-                </figure>
-                <p>High Temp°</p>
-            </div>
-            <div>
-                <h3>Day</h3>
-                <figure>
-                    <img src="images/thunder-storm.gif" alt="thunder-storm-icon" />
-                </figure>
-                <p>High Temp°</p>
-            </div>
-            <div>
-                <h3>Day</h3>
-                <figure>
-                    <img src="images/snowing.gif" alt="snow-icon" />
-                </figure>
-                <p>High Temp°</p>
-            </div>
-            <div>
-                <h3>Day</h3>
-                <figure>
-                    <img src="images/rainy.gif" alt="rainy-icon" />
-                </figure>
-                <p>High Temp°</p>
-            </div>
-            <div>
-                <h3>Day</h3>
-                <figure>
-                    <img src="images/sunny.gif" alt="sunny-icon" />
-                </figure>
-                <p>High Temp°</p>
-            </div>
+        <h2>Five-Day Forecast</h2>
+        <div class="daysForcast">
+        <section class="forecast" id="weatherforecast">
+
         </section>
+        </div>
         <article>
             <h2>About Preston</h2>
             <img src="images/water.jpg" alt="Cloudy weat" />
@@ -226,7 +203,8 @@
     <script src="js/AOS.js"></script>
 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-    <script src="js/stickyNav.js"></script>    
+    <script src="js/stickyNav.js"></script>
+    <script src="js/weather.js"></script>
 </body>
 
 </html>
