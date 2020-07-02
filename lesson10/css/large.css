@@ -31,7 +31,10 @@
     .elements{
     font-size: 1rem;
     padding-bottom: 3rem;
+}
 
+.elements li{
+        line-height: 1.9rem;
 }
 
 
