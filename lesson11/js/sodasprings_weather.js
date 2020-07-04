@@ -1,5 +1,5 @@
-//Getting the data for Preston's weather
-const apiURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=06b398ce5a9a3ebc9b95042ec888e67b&units=imperial"
+//Fetching the data for Soda Springs' weather
+const apiURL = "https://api.openweathermap.org/data/2.5/forecast?id=5607916&appid=06b398ce5a9a3ebc9b95042ec888e67b&units=imperial"
 
 fetch(apiURL)
     .then((response) => response.json())
@@ -91,10 +91,9 @@ fetch(requestURL)
         return response.json();
     })
     .then(function (jsonObject) {
-        console.table(jsonObject); //temporary checking for valid response and data parsing
 
         const towns = jsonObject['towns'];
-        const home = towns.filter(town => (town.name == 'Preston'));
+        const home = towns.filter(town => (town.name == 'Soda Springs'));
 
         home.forEach(town => {
             let Events = document.createElement('article');
@@ -106,7 +105,6 @@ fetch(requestURL)
                 listItem.textContent = townEvents[j];
                 eventList.appendChild(listItem);
             }
-            console.log(townEvents);
 
             document.getElementById('Events').appendChild(eventList);
         })

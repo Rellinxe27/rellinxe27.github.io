@@ -31,7 +31,10 @@
     .elements{
     font-size: 1rem;
     padding-bottom: 3rem;
+}
 
+.elements li{
+        line-height: 1.9rem;
 }
 
 
@@ -43,6 +46,14 @@
         margin: 1rem auto;
     }
 
+    .wrapper{
+        padding: 2px 33%;
+    }
+
+    section .contactContainer{
+        margin-top: 4.5rem;
+    }
+
     section .contactContainer .phoneAndEmail{
         padding-left: 6rem;
     }
@@ -51,9 +62,8 @@
         grid-column: 3/11;
         grid-row: 2;
         margin-bottom: .5rem;
-
-
-}
+        padding: 23%;
+    }
 /*----------- FOOTER --------------*/
     footer{
         border-bottom: 0;

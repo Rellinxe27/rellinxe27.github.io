@@ -8,9 +8,14 @@ div.towns{
     margin-bottom: 2rem;
 }
 
+article{
+    background-color: #E9EEEA;
+}
+
 div.towns section{
     display: block;
     background-color: #E9EEEA;
+    border: 1px solid grey;
 }
 
 div.towns h2{
@@ -33,18 +38,25 @@ div.towns p{
 }
 
 a.wireframes_link{
-    margin: 42% 40% ;
+    margin: 61% 30% ;
     position: absolute;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 600;
-
+    width: 50%;
 }
 
 
 @media only screen and (min-width: 35rem){
+    main{
+        margin-top: 5.5rem;
+    }
 
     .banner{
-        margin-bottom: 7rem;
+        margin: 0;
+    }
+
+    a.wireframes_link{
+        margin: 45% 35% ;
     }
 
     div.towns section{
@@ -72,48 +84,41 @@ a.wireframes_link{
 
 @media only screen and (min-width: 64rem){
     main{
-        padding: 0;
+        padding: 0 3%;
+        margin-top: 6.5rem;
     }
 
     div.towns {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0,0, 0.5)), url(../images/rain_Drop.jpg);
-        background-size: cover;
         background-attachment: fixed;
         background-position: center center;
-        height: 80vh;
         position: relative;
         padding: 2px 2%;
         margin-bottom: 3rem;
         grid-gap: 10px;
     }
 
+
     div.towns section{
         display: block;
         transition: all ease-in-out .7s;
-        border-radius: 1%;
-        background-color: transparent;
-    }
-
-    div.towns section:hover{
-        background-color: white;
-        box-shadow: -1px 4px 7px -1px #808080;
+        border-radius: 2%;
+        box-shadow:  6px 5px 20px 8px #808080;
         border-radius: 1%;
     }
 
     div.towns h2{
-        font-size: 2rem;
         text-shadow: 4px -1px 6px #808080;
         margin-top: 0;
     }
 
     div.towns h3{
-        font-size: 1rem;
+        font-size: .95rem;
     }
 
     div.towns p{
-        font-size: 1.1rem;
+        font-size: .9rem;
     }
     
 }

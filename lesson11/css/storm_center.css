@@ -104,7 +104,7 @@ form input.submitBtn{
 }
 
 form input.submitBtn:hover{
-    border: 2px solid #1C2E46;
+    border: 1px solid #1C2E46;
     background: linear-gradient(60deg, white 60%, white 40%);
     transition: all ease-in-out .5s;
     color: #1C2E46;
