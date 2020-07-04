@@ -10,7 +10,6 @@ body {
         font-size: 16px;
         font-family: Verdana, Geneva, sans-serif;
         background: linear-gradient(60deg, #88C6D3 40%, #2F4D75 100%);
-        background-color: #fff;
         width: 100%;
         overflow: hidden;
 }

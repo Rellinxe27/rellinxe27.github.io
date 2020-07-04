@@ -3,6 +3,10 @@
  * Modified by: Boni Rellinxe
  */
 
+ body{
+    background: linear-gradient(60deg, #FFFFFF 40%, #FFFFFF 100%);
+ }
+
  main{
      margin-top: 2rem;
      margin-bottom: 7.5rem;
