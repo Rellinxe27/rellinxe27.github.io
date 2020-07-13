@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Salmon River Adventures | Home</title>
+    <meta name="description" content="Salmon River Adventure's homepage">
+    <link rel="shortcut icon" href="images/favicon/favicon.ico">
+    <link rel="apple-touch-icon" href="images/favicon/apple-icon.png">
+    <script src="https://kit.fontawesome.com/0a5e9baade.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <a class="logo" href="index.html">Salmon River Adventures</a>
+        <nav>
+            <ul class="navigation">
+                <li><a class="ham" href="# ">&#9776; Menu</a></li>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="river-guide.html">River Guides</a></li>
+                <li><a href="reservation.html">Reservations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-background lazy-bg-load" data-src="images/hero.jpg"></div>
+            <div class="hero-text">
+                <h1>Get an adrenaline rush with Salmon River Adventures</h1>
+                <p>Reserve a breathtaking world-class, whitewater rafting excursion along the beautiful Salmon River.</p>
+                <a href="reservation.html"><span class="button">Book Now</span></a>
+            </div>
+        </section>
+        <div class="about">
+            <div class="about-text">
+                <p class="special">About</p>
+                <h2>World-class, whitewater rafting experiences on the Salmon River</h2>
+                <p>Salmon River Adventures is a river rafting tour company that offers day and overnight rafting trips for groups or individuals along the Salmon River.</p>
+                <p>Being located in Riggins, Idaho (about three hours north of Boise) means we're truly deep in the middle of Idaho's wilderness and surrounded by scenic views.</p>
+                <p>You'll always receive top-notch service, safety, and care when rafting with us. Our staff have many years of rafting experience and conduct each trip with state of the art equipment that complies with all regulations.</p>
+                <p>Not interested in a guided rafting trip? We also offer additional services.</p>
+            </div>
+            <img src="images/placeholder635x410.jpg" data-src="images/raft2.jpg" alt="front of raft on a river">
+        </div>
+        <div class="services-container">
+            <div class="service-card">
+                <img src="images/placeholder80x80.jpg" data-src="images/kayak.png" alt="yellow kayak icon">
+                <h3>Rentals</h3>
+                <p>Rent an inflatable kayak (1-2 passengers) or sport raft (4-8 passengers) for half or full-day fun. Call 1-800-456-7890 for more details.</p>
+            </div>
+            <div class="service-card">
+                <img src="images/placeholder80x80.jpg" data-src="images/map.png" alt="green map icon">
+                <h3>Self-Guided Trips</h3>
+                <p>Want to raft the river without a guide? We offer mapped routes for self-guided trips including shuttle drop off and pick up for maximum ease.</p>
+            </div>
+            <div class="service-card">
+                <img src="images/placeholder80x80.jpg" data-src="images/trailer.png" alt="camping trailer icon">
+                <h3>Camping Sites</h3>
+                <p>Stay nearby at one of our tent or RV sites. Our private campgrounds have power and water hook ups, bathrooms, and easy river access.</p>
+            </div>
+        </div>
+        <section class="current-conditions">
+            <div class="current-conditions-grid">
+                <div class="current-news">
+                    <h2>Current Rafting News</h2>
+                    <p>All April trips will be postponed due to coronavirus. We will contact you with more details.</p>
+                    <p>First river guide training class scheduled for May 16, 2020. The second class will begin May 30, 2020.</p>
+                    <p>Our commercial whitewater rafting season begins May 30, 2020.</p><br>
+                    <a href="reservation.html"><span class="button">Book Now</span></a>
+                </div>
+                <div class="weather">
+                    <div class="location-info">
+                        <h3>Riggins, ID</h3>
+                        <p id="currentWeekdayId"></p>
+                        <p id="currentlyId"></p>
+                        <div class="temp-info">
+                            <img id="icon" src="#" alt="">
+                            <p><span id="tempId"></span>&#176;F</p>
+                        </div>
+                    </div>
+                    <div class="conditions-info">
+                        <p>Humidity: <span id="humidityId"></span>%</p>
+                        <p>Wind: <span id="windSpeedId"></span> mph</p>
+                        <p>Wind chill: <span id="windChillId"></span></p>
+                    </div>
+                    <div class="forecast">
+                        <div class="forecast-card">
+                            <p class="dayClass"></p>
+                            <img src="#" alt="" id="icon-1">
+                            <p><span id="temp1"></span>&#176;F</p>
+                        </div>
+                        <div class="forecast-card">
+                            <p class="dayClass"></p>
+                            <img src="#" alt="" id="icon-2">
+                            <p><span id="temp2"></span>&#176;F</p>
+                        </div>
+                        <div class="forecast-card">
+                            <p class="dayClass"></p>
+                            <img src="#" alt=" " id="icon-3">
+                            <p><span id="temp3"></span>&#176;F</p>
+                        </div>
+                        <div class="forecast-card">
+                            <p class="dayClass"></p>
+                            <img src="#" alt="" id="icon-4">
+                            <p><span id="temp4"></span>&#176;F</p>
+                        </div>
+                        <div class="forecast-card">
+                            <p class="dayClass"></p>
+                            <img src="#" alt="" id="icon-5">
+                            <p><span id="temp5"></span>&#176;F</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gallery">
+            <h2>Available Adventures</h2>
+            <p>Want to go whitewater rafting? Select from one of our three available adventure trips.</p>
+            <div class="image-container">
+                <figure>
+                    <img src="images/placeholder288x288.jpg" data-src="images/calmwaters.jpg" alt="A raft with four people in rapids">
+                    <div class="caption">
+                        <h3>Half Day Trip</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Departing from Riggins and ending in Lucile.</p>
+                        <p>Beginner | Class II-III</p>
+                        <p><i class="fas fa-tag"></i> $69 / person</p>
+                        <p>Includes shuttle to and from the river, dry bag for your personal belongings, and wet suits & life jackets.</p>
+                    </div>
+                    <a href="reservation.html"><span class="button">Reserve</span></a>
+                </figure>
+                <figure>
+                    <img src="images/placeholder288x288.jpg" data-src="images/jump.jpg" alt="River with rocks surrounded by evergreen forest">
+                    <div class="caption">
+                        <h3>Full Day Trip</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Departing from Riggins and ending in Slate Creek.</p>
+                        <p>Intermediate | Class III-IV</p>
+                        <p><i class="fas fa-tag"></i> $89 / person</p>
+                        <p>Includes shuttle ride, dry bag for your personal belongings, wet suits & life jackets, and picnic lunch.</p>
+                    </div>
+                    <a href="reservation.html"><span class="button">Reserve</span></a>
+                </figure>
+                <figure>
+                    <img src="images/placeholder288x288.jpg" data-src="images/rapids.jpg" alt="Woman jumping off a rock into a river">
+                    <div class="caption">
+                        <h3>Two Day Trip</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Departing from Riggins and ending near White Bird.</p>
+                        <p>Advanced | Class IV-V</p>
+                        <p><i class="fas fa-tag"></i> $169 / person</p>
+                        <p>Includes shuttle ride, dry bag, wet suits & life jackets, two meals a day, and camping gear for overnight.</p>
+                    </div>
+                    <a href="reservation.html"><span class="button">Reserve</span></a>
+                </figure>
+            </div>
+        </section>
+        <section class="testimonials">
+            <h2>Testimonials</h2>
+            <p>Read what our recent customers say about their whitewater rafting experience with Salmon River Adventures.</p>
+            <div class="card-container">
+                <div class="card">
+                    <img src="images/placeholder80x80.jpg" data-src="images/woman.jpg" alt="portrait of Melissa Ward">
+                    <p>Our recent expedition with Salmon River Adventures was by far one of the best rafting trips ever. The office staff were organized and efficient. The safety briefing was structured, thorough, and made sure all the first-time rafters
+                        in our group received the necessary information. Our guide, Megan, was knowledgeable, funny and made our day on the beautiful Salmon river even that much better. We will definitely be back for a trip next summer.</p>
+                    <hr>
+                    <h4>Melissa Ward</h4>
+                </div>
+                <div class="card">
+                    <img src="images/placeholder80x80.jpg" data-src="images/man.jpg" alt="portrait of John Mitchell">
+                    <p>The first whitewater rafting company I ventured out with set a high bar, but Salmon River Adventures met and surpassed that measure. James took us out and was very skilled, personable, and fun river guide. My friend, a first-time rafter,
+                        perfectly handled class IV-V rapids thanks to James. If you love adrenaline, you’ve got to ride the Salmon river! Thankfully, there are also hiking trails for those who chose to opt out of the advanced rapids. </p>
+                    <hr>
+                    <h4>John Mitchell</h4>
+                </div>
+                <div class="card">
+                    <img src="images/placeholder80x80.jpg" data-src="images/woman2.jpg" alt="portrait of Emily Scott">
+                    <p>I highly recommend Salmon River Adventures if you are new to whitewater rafting. My siblings and I took our dad for Father’s Day and were a little nervous beforehand. However, when approaching more dangerous rapids, Megan pulled the
+                        raft aside to make sure everyone understood the instructions. That helped us newbies safely navigate the rapids without panicking. I think this experience just jump-started a new hobby for me. </p>
+                    <hr>
+                    <h4>Emily Scott</h4>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-div">
+            <div class="address">
+                <a class="logo" href="index.html">Salmon River Adventures</a>
+                <address>1-800-456-7890<br>
+                    1000 South Main St<br>
+                    Riggins, ID 83549</address>
+            </div>
+            <nav class="hide">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="river-guide.html">River Guides</a></li>
+                    <li><a href="reservation.html">Reservations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="footer-links">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="https://openweathermap.org/" target="_blank">OpenWeatherMap</a></li>
+                    <li><a href="https://unsplash.com/" target="_blank">Unsplash</a></li>
+                    <li><a href="https://rigginsidaho.com/" target="_blank">Visit Riggins</a></li>
+                    <li><a href="https://visitidaho.org/" target="_blank">Visit Idaho</a></li>
+                </ul>
+            </div>
+            <div class="social-links">
+                <h4>Connect</h4>
+                <a href="https://www.facebook.com" target="_blank">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+                <a href="https://www.instagram.com" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.twitter.com" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.youtube.com" target="_blank">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+            <div class="copyright">
+                <p>&copy; <span id="currentYearId"></span> Salmon River Adventures<br> Developed by Ellen Carlson.</p>
+            </div>
+            <div class="subscribe">
+                <h4>Subscribe</h4>
+                <form method="get" action="thanks.html">
+                    <input type="email" id="email" name="email" placeholder="Email Address..." required>
+                    <input type="submit" value=">">
+                </form>
+            </div>
+        </div>
+    </footer>
+    <script src="js/responsiveNav.js"></script>
+    <script src="js/footerDate.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/lazyLoad.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Montserrat', 'Roboto', 'Permanent Marker']
+            }
+        });
+    </script>
+</body>
+
+</html>
