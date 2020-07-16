@@ -185,6 +185,7 @@ a button {
 .hero-text h2{
     padding: 2.5rem 1rem 0;
     font-size: 19px;
+    color: red;
 }
 
 .hero-text p {
