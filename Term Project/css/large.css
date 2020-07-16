@@ -121,9 +121,9 @@ header nav .navigation li {
     margin-right: 0;
 }
 
+@media only screen and (min-width: 64rem){
 
 /*reservation*/
-
 .reservation-form {
     max-width: 60%;
     margin: auto;
@@ -148,43 +148,4 @@ header nav .navigation li {
 
 /*footer*/
 
-footer {
-    padding: 2%;
-}
-
-.footer-div {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    max-width: 60%;
-    margin: auto;
-}
-
-.address {
-    grid-column: 1;
-    grid-row: 1;
-}
-
-footer nav {
-    grid-column: 2;
-    grid-row: 1;
-}
-
-.footer-links {
-    grid-column: 3;
-    grid-row: 1;
-}
-
-.social-links {
-    grid-column: 4;
-    grid-row: 1;
-}
-
-.copyright {
-    grid-column: 1;
-    grid-row: 2;
-}
-
-.subscribe {
-    grid-column: 4;
-    grid-row: 2;
 }
