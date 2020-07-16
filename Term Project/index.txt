@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="Rellinxe" content="~Scoots website, motor scooter rental company in WDD 230-08: Final Project">
+    <title>~Scoots | Home</title>
+    <meta name="description" content="~Scoots motor scooter rental company homepage">
+
+    <link rel="shortcut icon" href="images/favicon/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;1,300;1,600&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://unpkg.com/aos@2.3.0/dist/aos.css'>
+
+
+    <!-- STYLE SHEETS -->
+
+        <link href="css/small.css" rel="stylesheet"/>
+        <link href="css/medium.css" rel="stylesheet"/>
+        <ink href="css/styles.css" rel="stylesheet"/>
+
+
+    <script src="https://kit.fontawesome.com/0a5e9baade.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <a class="logo" href="index.html"><img src="images/scooter-black.png" alt="logo" /></a>
+            <nav>
+                <button onclick="toggleMenu()">&#9776; MENU</button>
+                <div class="nav-wrapper">
+                    <ul id="primaryNav" class="hide">
+                        <li class="active" ><a href="index.html">Home</a></li>
+                        <li><a href="rentals.html">Rentals</a></li>
+                        <li><a href="reservations.html">Reservations</a></li>
+                        <li><a href="tours.html">Tours</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-banner">
+            <div class="hero-text">
+                <h2>motor scooter rental company</h2>
+                <p>The most fun, safe, and affordable riding experience. </p>
+                <button type="button" onclick="location.href='reservations.html'">Reserve Now</button>
+            </div>
+            <picture >
+                    <source media="(max-width: 450px)" srcset="images/Palancar_beach_small.jpg" alt="Palancar Beach">
+                    <source media="(max-width: 800px)" srcset="images/Palancar_beach_medium.jpg" alt="Palancar Beach">
+                    <img src="images/Palancar_beach_large.jpg" alt="Palancar Beach">
+            </picture>
+            </div>
+        </section>
+
+        <!-- ======================================================================= -->
+        <!-- START ABOUT -->
+        <!-- ======================================================================= -->
+        <div class="aboutUs">
+            <div class="about-text">
+                <h1>About us</h1>
+                <p>
+                    ~Scoots is a 🛵 motor scooter rental company located on the island of Cozumel off the coast of Mexico in the western Caribbean Sea.
+                    ~Scoots caters to locals, walk-in tourists, enthusiasts, and cruise-based touring groups and partnerships.
+                </p>
+                <p>
+                    The company has two physical rental locations on Cozumel.
+                    One is near the Playa del Carmen-Cozumel Ferry dock in el Centro de Cozumel and the other is near
+                    The Terminal Puerta Maya further south along the coast which caters to the cruise lines and patrons.
+                </p>
+                <p>
+                    The company promotes friendly and easy to rent services of motor scooters, jeeps, and side-by-sides ATVs.
+                    The overall goal of ~Scoots is to promote the rental services for those customers that like to do
+                    their homework before getting to the island and to provide information about the services, requirements, and rental process.
+                </p>
+            </div>
+            <img src="images/placeholder635.jpg" data-src="images/Palancar_beach635.jpg" alt="">
+        </div>
+
+        <!-- ======================================================================= -->
+        <!-- START SERVICES -->
+        <!-- ======================================================================= -->
+        <section class="services">
+        <h2>Our Services</h2>
+        <div class="services-container">
+            <article class="service-card">
+                <img src="images/placeholder80.jpg" data-src="images/buggy-vehicle.png" alt="Buggy vehicle">
+                <h3>Rentals</h3>
+                <p>When it’s time to get active, rent some snorkeling gear and simply ride , or join a dive trip to one of the spectacular nearby reefs.</p><br>
+                <footer>
+                    <button type="button" class="viewButton">
+                        View
+                    </button>
+                    <button type="button" class="editButton">
+                        Edit
+                    </button>
+                </footer>
+            </article>
+            <article class="service-card">
+                <img src="images/placeholder80.jpg" data-src="images/Cozumel-scuba.png" alt="Cozumel scuba">
+                <h3>Touring</h3>
+                <p>Visit Palancar Beach, the perfect place to rejuvenate the mind and body. Book a beachside massage or beauty treatment in one of the resort spas,</p>
+                <footer>
+                    <button type="button" class="viewButton">
+                        View
+                    </button>
+                    <button type="button" class="editButton">
+                        Edit
+                    </button>
+                </footer>
+            </article>
+            <article class="service-card">
+                <img src="images/placeholder80.jpg" data-src="images/reservations.png" alt="reservation pic">
+                <h3>Reservations</h3>
+                <p>Unwind, escape and take it easy... RELAX! Get away from the crowds and truly spend a on the Island! by making your reservation ..</p><br>
+                <footer>
+                    <button type="button" class="viewButton">
+                        View
+                    </button>
+                    <button type="button" class="editButton">
+                        Edit
+                    </button>
+                </footer>
+            </article>
+        </div>
+        </section>
+
+        <!-- ======================================================================= -->
+        <!-- START WEATHER -->
+        <!-- ======================================================================= -->
+        <section class="current-conditions">
+            <div class="current-conditions-grid">
+                <div class="current-news">
+                    <h2>Current Island News</h2>
+                    <p>
+                        All trips will be postponed due to coronavirus. We will contact you with more details.
+                    </p>
+                    <p>
+                        Next Week Orange Level, Cozumel Chankanaab and Punta Sur Parks to reopen, June 26 COVID – 19 Status,
+                        Current Cozumel Mandates, and more…. Orange Again Cozumel June 25
+                    </p>
+                    <p>
+                        The Cozumel Sun Special Report: The 2020 Hurricane Season,
+                        How to prepare for the Hurricane and Tropical storm Season,
+                        What to do during a Hurricane or Severe Tropical Storm
+                    </p><br>
+                    <button type="button" onclick="location.href='https://www.thecozumelsun.com/cozumel-news/'">More News +</button>
+                </div>
+                <h2>Five-Day Forecast</h2>
+                <div class="weather">
+                    <div class="location-info">
+                        <h3>Cozumel, MX</h3>
+                        <p id="currentWeekdayId"></p>
+                        <p id="currentlyId"></p>
+                        <div class="temp-info">
+                            <img id="icon" src="#" alt="">
+                            <p><span id="tempId"></span>&#176;F</p>
+                        </div>
+                    </div>
+                    <div class="conditions-info">
+                        <p>Currently:
+                            <span class="highlight" id="message"></span>
+                        </p>
+                        <p>Temperature:
+                            <span class="highlight" id="currentTemp"></span>
+                            <i class="highlight">&deg;F</i>
+                        </p>
+                        <p>Humidity:
+                            <span class="highlight" id="humidity"></span>
+                            <i class="highlight">%</i>
+                        </p>
+                        <p>Wind Speed:
+                            <span class="highlight" id="windSpeed"></span>
+                            <i class="highlight">mph</i>
+                        </p>
+                        <p>Wind chill:
+                            <span class="highlight" id="chill"></span>
+                            <i class="highlight">N/A</i>
+                        </p>
+                    </div>
+                    <div class="forecast">
+                        <div class="forecast-card">
+                            <p class="dayClass"></p>
+                            <img src="#" alt="" id="icon-1">
+                            <p>
+                                <span  class="highlight" id="temp1"></span>
+                                <i class="highlight">&#176;F</i>
+                            </p>
+                        </div>
+                        <div class="forecast-card">
+                            <p class="dayClass"></p>
+                            <img src="#" alt="" id="icon-2">
+                            <p>
+                                <span class="highlight" id="temp2"></span>
+                                <i class="highlight">&#176;F</i>
+                            </p>
+                        </div>
+                        <div class="forecast-card">
+                            <p class="dayClass"></p>
+                            <img src="#" alt=" " id="icon-3">
+                            <p>
+                                <span class="highlight" id="temp3"></span>
+                                <i class="highlight">&#176;F</i>
+                            </p>
+                        </div>
+                        <div class="forecast-card">
+                            <p class="dayClass"></p>
+                            <img src="#" alt="" id="icon-4">
+                            <p>
+                                <span class="highlight" id="temp4"></span>
+                                <i class="highlight">&#176;F</i>
+                            </p>
+                        </div>
+                        <div class="forecast-card">
+                            <p class="dayClass"></p>
+                            <img src="#" alt="" id="icon-5">
+                            <p>
+                                <span class="highlight" id="temp5"></span>
+                                <i class="highlight">&#176;F</i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ======================================================================= -->
+        <!-- END WEATHER -->
+        <!-- ======================================================================= -->
+
+        <section class="gallery">
+            <h2>Motor Scooters in Store</h2>
+            <p>We understand the pure primal joy only motorcycling, above all else, offers</p>
+            <div class="image-container">
+                <figure>
+                    <img src="images/placeholder.jpg" data-src="images/hero.jpg" alt="">
+                    <div class="caption">
+                        <h3>Half Day Rental</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> From San Miguel to Costera Norte.</p>
+                        <p>Helmet Rental</p>
+                        <p><i class="fas fa-tag"></i> $20 / person</p>
+                        <p>You can ride a full or half day with Honda Motor Scooters at low prices on ~Scoots on the island of Cozumel.</p>
+                    </div>
+                    <button type="button" onclick="location.href='reservations.html'">Reserve a Honda Scooter</button>
+                </figure>
+                <figure>
+                    <img src="images/placeholder.jpg" data-src="images/hero.jpg" alt="">
+                    <div class="caption">
+                        <h3>Full Day Rental</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> From Costera Norte to Costera Sur.</p>
+                        <p>10% Discount</p>
+                        <p><i class="fas fa-tag"></i> $40 / 2 persons</p>
+                        <p>Whether for a full day rental, half day rental or self-guided program, ~Scoots is in the business of delivering dreams.</p>
+                    </div>
+                    <button type="button" onclick="location.href='reservations.html'">Reserve a  ATV Side-by-Side</button>
+                </figure>
+                <figure>
+                    <img src="images/placeholder.jpg" data-src="images/hero.jpg" alt="">
+                    <div class="caption">
+                        <h3>Full Day Rental</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> From Palancar Beach to San Miguel.</p>
+                        <p>Accident Insurance</p>
+                        <p><i class="fas fa-tag"></i> $50 / 2 persons</p>
+                        <p>You passionate about extreme? Take your pick from our extensive fleet of major brands, featuring Jeep Wranglers.</p>
+                    </div>
+                    <button type="button" onclick="location.href='reservations.html'">Reserve a Jeep</button>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <!-- ======================================================================= -->
+    <!-- START FOOTER -->
+    <!-- ======================================================================= -->
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <ul class="about f-left">
+                    <li><a href="#" class="about-link link-title">About</a></li>
+                    <li><a href="#" class="about-link">Home</a></li>
+                    <li><a href="#" class="about-link">Our services</a></li>
+                    <li><a href="#" class="about-link">Portfolio</a></li>
+                    <li><a href="#" class="about-link">My blog</a></li>
+                </ul>
+                <ul class="information f-left">
+                    <li><a href="#" class="about-link link-title">Information</a></li>
+                    <li><a href="#" class="about-link">Terms &amp; condition</a></li>
+                    <li><a href="#" class="about-link">Privacy policy</a></li>
+                    <li><a href="#" class="about-link">Jobs</a></li>
+                    <li><a href="#" class="about-link">Partner</a></li>
+                </ul>
+                <ul class="support f-left">
+                    <li><a href="#" class="about-link link-title">Support</a></li>
+                    <li><a href="#" class="about-link">Contact us</a></li>
+                    <li><a href="#" class="about-link">Faqs</a></li>
+                    <li><a href="#" class="about-link">Report an issue</a></li>
+                </ul>
+                <ul class="flexi f-left">
+                    <li><a href="index.html" class="about-link link-title-big">~Scoots</a></li>
+                    <li>
+                        <p class="flexi-desc">Akuma # 574 between 20 and 30 Avenue Colonos Cuzamil
+                            Cozumel Q. Roo. <br>
+                            C.P 77664 Mexico
+                        </p>
+                    </li>
+                </ul>
+                <div class="clear-fix"></div>
+            </div>
+            <div class="footer-bottom">
+                <span class="copyright">Copyright &copy; <script src="js/scripts.js"></script>
+                    ~Scoots, all right reserved
+                    Designed and Developed by Rellinxe Boni ♥
+                </span>
+                <ul class="footer-social">
+                    <li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#" class="instagram"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="#" class="youtube"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="#" class="facebook"><i class="fab fa-facebook"></i></a></li>
+                </ul>
+                <div class="clear-fix"></div>
+            </div>
+        </div>
+    </footer>
+    <!-- ======================================================================= -->
+    <!-- END FOOTER -->
+    <!-- ======================================================================= -->
+
+    <script src='https://unpkg.com/aos@2.3.0/dist/aos.js'></script>
+    <script src="js/AOS.js"></script>
+
+    <script src="js/lazyloading.js"></script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="js/stickyNav.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/weather.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Montserrat', 'Roboto', 'Permanent Marker']
+            }
+        });
+    </script>
+</body>
+
+</html>

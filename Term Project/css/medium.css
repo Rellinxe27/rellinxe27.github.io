@@ -1,0 +1,78 @@
+/* 35em is also 560px (if basefont is 16px) */
+@media only screen and (min-width: 35rem) {
+
+.hide {
+    display: block;
+}
+
+header {
+    font-size: 1.1em;
+}
+
+/*START Hero*/
+
+.hero-text h2 {
+    padding: 8rem 1rem 0;
+    font-size: 2.5em;
+}
+
+.hero-text p {
+    font-size: 25px;
+}
+
+/*START About*/
+
+.services-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 2vw;
+}
+
+.service-card {
+    text-align: left;
+}
+
+
+
+/************ START Gallery*/
+
+.image-container {
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2vw;
+    grid-row-gap: 2vh;
+}
+
+/************START Tours*/
+
+.guides-container {
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2vw;
+    grid-row-gap: 2vh;
+}
+
+.guide {
+    text-align: left;
+}
+
+/************ START Contact*/
+
+.contact-form {
+    text-align: left;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2vw;
+}
+
+.contact-form form {
+    margin-bottom: 0;
+}
+
+
+
+
+/*START Footer*/
+
+footer .footer-top {
+    padding: 0 1rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+}

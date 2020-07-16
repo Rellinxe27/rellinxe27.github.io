@@ -1,0 +1,190 @@
+header {
+    font-size: 1.17em;
+}
+
+header nav .navigation li:first-child {
+    display: none;
+}
+
+header nav .navigation {
+    flex-direction: row;
+}
+
+header nav .navigation li {
+    display: block;
+}
+
+.text {
+    width: 60%;
+    margin: auto;
+    padding: 4% 2% 4% 2%;
+}
+
+
+/*hero*/
+
+.hero-text {
+    max-width: 60%;
+    margin: auto;
+    padding: 0;
+}
+
+.hero-text h1 {
+    font-size: 4.625em;
+}
+
+.hero-text p {
+    font-size: 1.17em;
+}
+
+
+/*about*/
+
+.about {
+    padding: 4% 2% 2% 2%;
+    width: 60%;
+    margin: auto;
+    grid-template-columns: auto auto;
+    grid-template-rows: 1fr;
+    grid-column-gap: 2vw;
+}
+
+.about img {
+    margin-top: 0;
+}
+
+.services-container {
+    width: 60%;
+    margin: auto;
+    padding: 0 2% 4% 2%;
+}
+
+
+/*current*/
+
+.current-conditions {
+    padding: 4% 2% 4% 2%;
+}
+
+.current-news {
+    text-align: left;
+}
+
+.current-conditions-grid {
+    max-width: 60%;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 2vw;
+}
+
+
+/*adventures*/
+
+.gallery {
+    max-width: 60%;
+    margin: auto;
+    padding: 4% 0 4% 0;
+}
+
+.image-container {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+/*testimonials*/
+
+.testimonials {
+    padding: 4% 0 4% 0;
+}
+
+.card-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2vw;
+    width: 60%;
+    margin: 2% auto 0 auto;
+}
+
+
+/*Guides*/
+
+.color {
+    padding: 4% 2% 4% 2%;
+}
+
+.guides-container {
+    width: 60%;
+    padding: 0;
+}
+
+.guide img {
+    margin-right: 0;
+}
+
+
+/*reservation*/
+
+.reservation-form {
+    max-width: 60%;
+    margin: auto;
+    padding: 2% 2% 4% 2%;
+}
+
+.table-container {
+    max-width: 60%;
+    margin: auto;
+    padding: 4% 2% 2% 2%;
+}
+
+
+/*contact*/
+
+.contact-form {
+    max-width: 60%;
+    margin: auto;
+    padding: 4% 2% 4% 2%;
+}
+
+
+/*footer*/
+
+footer {
+    padding: 2%;
+}
+
+.footer-div {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    max-width: 60%;
+    margin: auto;
+}
+
+.address {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+footer nav {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.footer-links {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.social-links {
+    grid-column: 4;
+    grid-row: 1;
+}
+
+.copyright {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.subscribe {
+    grid-column: 4;
+    grid-row: 2;
+}
