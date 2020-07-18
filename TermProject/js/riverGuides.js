@@ -10,9 +10,12 @@ fetch(jsonURL)
             const altText = "portrait of " + jsObject.guides[i].name;
             document.getElementById(`pic${i+1}`).setAttribute('src', picSource);
             document.getElementById(`pic${i+1}`).setAttribute('alt', altText);
-            document.getElementById(`email${i+1}`).textContent = jsObject.guides[i].email;
-            document.getElementById(`cert${i+1}`).textContent = jsObject.guides[i].certification;
-            document.getElementById(`years${i+1}`).textContent = jsObject.guides[i].years;
-            document.getElementById(`bio${i+1}`).textContent = jsObject.guides[i].biography;
+            document.getElementById(`price${i+1}`).textContent = jsObject.guides[i].price;
+            document.getElementById(`rentalType${i+1}`).textContent = jsObject.guides[i].rental;
+            document.getElementById(`maxPerson${i+1}`).textContent = jsObject.guides[i].maxPersons;
+            document.getElementById(`reservHalfDay${i+1}`).textContent = jsObject.guides[i].reservHalfDays;
+            document.getElementById(`reservFullDay6${i+1}`).textContent = jsObject.guides[i].reservFullDays;
+            document.getElementById(`walkinHalfDay${i+1}`).textContent = jsObject.guides[i].walkinHalfDays;
+            document.getElementById(`walkinFullDay${i+1}`).textContent = jsObject.guides[i].walkinFullDays;
         }
     });

@@ -604,6 +604,11 @@ table th, table tr {
 }
 
 /*START Contact form**************/
+.hero-text{
+    display: block;
+    width: 100%;
+    margin: 1.5rem auto .5rem;
+}
 
 .contact-form {
     text-align: center;
@@ -765,8 +770,6 @@ footer .footer-bottom .footer-social li a.facebook {
 @media (min-width: 1200px) {
     /* Ok */
 }
-
-
 
 
 /* Medium devices (desktops, 992px and up) */
