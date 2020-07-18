@@ -10,6 +10,7 @@
 
     <link rel="shortcut icon" href="images/favicon/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;1,300;1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&display=swap" rel="stylesheet">
     <link rel='stylesheet' href='https://unpkg.com/aos@2.3.0/dist/aos.css'>
 
 
@@ -27,16 +28,16 @@
 
 <body>
     <header>
-        <a class="logo" href="index.html"><img src="images/scooter-black.png" alt="logo" /></a>
+        <a class="logo" href="index.html">~Scoots</a>
             <nav>
                 <button onclick="toggleMenu()">&#9776; MENU</button>
                 <div class="nav-wrapper">
                     <ul id="primaryNav" class="hide">
-                        <li class="active" ><a href="#">Home</a></li>
-                        <li><a href="#">Rentals</a></li>
-                        <li><a href="#">Reservations</a></li>
-                        <li><a href="#">Tours</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li class="active" ><a href="index.html">Home</a></li>
+                        <li><a href="rentals.html">Rentals</a></li>
+                        <li><a href="reservations.html">Reservations</a></li>
+                        <li><a href="tours.html">Tours</a></li>
+                        <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
             </nav>
@@ -45,9 +46,9 @@
         <section class="hero">
             <div class="hero-banner">
             <div class="hero-text">
-                <h2>motor scooter rental company</h2>
+                <h1 data-aos="fade-down">motor scooter rental company</h1>
                 <p>The most fun, safe, and affordable riding experience. </p>
-                <button type="button" onclick="location.href='reservations.html'">Reserve Now</button>
+                <button data-aos="fade-left" type="button" onclick="location.href='reservations.html'">Reserve Now</button>
             </div>
             <picture >
                     <source media="(max-width: 450px)" srcset="images/Palancar_beach_small.jpg" alt="Palancar Beach">
@@ -78,7 +79,7 @@
                     their homework before getting to the island and to provide information about the services, requirements, and rental process.
                 </p>
             </div>
-            <img src="images/placeholder635.jpg" data-src="images/Palancar_beach635.jpg" alt="">
+            <img data-aos="fade-left" src="images/placeholder421.jpg" data-src="images/helm_steering.jpg" alt="">
         </div>
 
         <!-- ======================================================================= -->
@@ -88,7 +89,7 @@
         <h2>Our Services</h2>
         <div class="services-container">
             <article class="service-card">
-                <img src="images/placeholder80.jpg" data-src="images/buggy-vehicle.png" alt="Buggy vehicle">
+                <img src="images/placeholder301.jpg" data-src="images/buggy-vehicle.png" alt="Buggy vehicle">
                 <h3>Rentals</h3>
                 <p>When it’s time to get active, rent some snorkeling gear and simply ride.</p>
                 <footer>
@@ -101,7 +102,7 @@
                 </footer>
             </article>
             <article class="service-card">
-                <img src="images/placeholder80.jpg" data-src="images/Cozumel-scuba.png" alt="Cozumel scuba">
+                <img src="images/placeholder301.jpg" data-src="images/Cozumel-scuba.png" alt="Cozumel scuba">
                 <h3>Touring</h3>
                 <p>Visit Palancar Beach, the perfect place to rejuvenate the mind and body.</p>
                 <footer>
@@ -114,7 +115,7 @@
                 </footer>
             </article>
             <article class="service-card">
-                <img src="images/placeholder80.jpg" data-src="images/reservations.png" alt="reservation pic">
+                <img src="images/placeholder301.jpg" data-src="images/reservations.png" alt="reservation pic">
                 <h3>Reservations</h3>
                 <p>Unwind, escape and take it easy... RELAX! Get away from the crowds and make a reservation...</p>
                 <footer>
@@ -134,24 +135,22 @@
         <!-- ======================================================================= -->
         <section class="current-conditions">
             <div class="current-conditions-grid">
-                <div class="current-news">
+                <div class="current-news" data-aos="fade-right">
                     <h2>Current Island News</h2>
                     <p>
                         All trips will be postponed due to coronavirus. We will contact you with more details.
                     </p>
                     <p>
-                        Next Week Orange Level, Cozumel Chankanaab and Punta Sur Parks to reopen, June 26 COVID – 19 Status,
-                        Current Cozumel Mandates, and more…. Orange Again Cozumel June 25
+                        Next Week Orange Level, Cozumel Chankanaab and Punta Sur Parks to reopen...
                     </p>
                     <p>
                         The Cozumel Sun Special Report: The 2020 Hurricane Season,
-                        How to prepare for the Hurricane and Tropical storm Season,
-                        What to do during a Hurricane or Severe Tropical Storm
+                        How to prepare for...
                     </p><br>
                     <button type="button" onclick="location.href='https://www.thecozumelsun.com/cozumel-news/'">More News +</button>
                 </div>
                 <h2>Five-Day Forecast</h2>
-                <div class="weather">
+                <div class="weather" data-aos="fade-left">
                     <div class="location-info">
                         <h3>Cozumel, MX</h3>
                         <p id="currentWeekdayId"></p>
@@ -232,36 +231,36 @@
         <!-- ======================================================================= -->
 
         <section class="gallery">
-            <h2>Motor Scooters in Store</h2>
-            <p>We understand the pure primal joy only motorcycling, above all else, offers</p>
+            <h2 data-aos="fade-left">Motor Scooters in Store</h2>
+            <p data-aos="fade-left">We understand the pure primal joy only motorcycling, above all else, offers</p>
             <div class="image-container">
-                <figure>
-                    <img src="images/placeholder.jpg" data-src="images/hero.jpg" alt="">
+                <figure data-aos="zoom-out-down">
+                    <img src="images/placeholder317.jpg" data-src="images/scooter.jpg" alt="Honda Scooter">
                     <div class="caption">
                         <h3>Half Day Rental</h3>
                         <p><i class="fas fa-map-marker-alt"></i> From San Miguel to Costera Norte.</p>
                         <p>Helmet Rental</p>
                         <p><i class="fas fa-tag"></i> $20 / person</p>
-                        <p>You can ride a full or half day with Honda Motor Scooters at low prices on ~Scoots on the island of Cozumel.</p>
+                        <p>You can ride a full or half day with Honda Motor Scooters at low prices on ~Scoots on the island of Cozumel</p>
                     </div>
                     <button type="button" onclick="location.href='reservations.html'">Reserve a Honda Scooter</button>
                 </figure>
-                <figure>
-                    <img src="images/placeholder.jpg" data-src="images/hero.jpg" alt="">
+                <figure data-aos="flip-left">
+                    <img src="images/placeholder317.jpg" data-src="images/ATV.jpg" alt="Pioner ATV">
                     <div class="caption">
                         <h3>Full Day Rental</h3>
-                        <p><i class="fas fa-map-marker-alt"></i> From Costera Norte to Costera Sur.</p>
+                        <p><i class="fas fa-map-marker-alt"></i> From Costera Norte to Costera Sur</p>
                         <p>10% Discount</p>
                         <p><i class="fas fa-tag"></i> $40 / 2 persons</p>
-                        <p>Whether for a full day rental, half day rental or self-guided program, ~Scoots is in the business of delivering dreams.</p>
+                        <p>Whether for a full day rental, half day rental or self-guided program, Scoots is in the business of delivering dreams.</p>
                     </div>
                     <button type="button" onclick="location.href='reservations.html'">Reserve a  ATV Side-by-Side</button>
                 </figure>
-                <figure>
-                    <img src="images/placeholder.jpg" data-src="images/hero.jpg" alt="">
+                <figure data-aos="zoom-out-right">
+                    <img src="images/placeholder317.jpg" data-src="images/jeep-wrangler.jpg" alt="Jeep Wrangler">
                     <div class="caption">
                         <h3>Full Day Rental</h3>
-                        <p><i class="fas fa-map-marker-alt"></i> From Palancar Beach to San Miguel.</p>
+                        <p><i class="fas fa-map-marker-alt"></i> From Palancar Beach to San Miguel</p>
                         <p>Accident Insurance</p>
                         <p><i class="fas fa-tag"></i> $50 / 2 persons</p>
                         <p>You passionate about extreme? Take your pick from our extensive fleet of major brands, featuring Jeep Wranglers.</p>
@@ -279,24 +278,19 @@
         <div class="container">
             <div class="footer-top">
                 <ul class="about f-left">
-                    <li><a href="#" class="about-link link-title">About</a></li>
-                    <li><a href="#" class="about-link">Home</a></li>
-                    <li><a href="#" class="about-link">Our services</a></li>
-                    <li><a href="#" class="about-link">Portfolio</a></li>
-                    <li><a href="#" class="about-link">My blog</a></li>
+                    <li><a href="index.html" class="about-link link-title">About</a></li>
+                    <li><a href="index.html" class="about-link">Home</a></li>
+                    <li><a href="index.html" class="about-link">Our services</a></li>
                 </ul>
                 <ul class="information f-left">
-                    <li><a href="#" class="about-link link-title">Information</a></li>
-                    <li><a href="#" class="about-link">Terms &amp; condition</a></li>
+                    <li><a href="index.html" class="about-link link-title">Information</a></li>
                     <li><a href="#" class="about-link">Privacy policy</a></li>
-                    <li><a href="#" class="about-link">Jobs</a></li>
                     <li><a href="#" class="about-link">Partner</a></li>
                 </ul>
                 <ul class="support f-left">
                     <li><a href="#" class="about-link link-title">Support</a></li>
-                    <li><a href="#" class="about-link">Contact us</a></li>
-                    <li><a href="#" class="about-link">Faqs</a></li>
-                    <li><a href="#" class="about-link">Report an issue</a></li>
+                    <li><a href="contact.html" class="about-link">Contact us</a></li>
+                    <li><a href="contact.html" class="about-link">Report an issue</a></li>
                 </ul>
                 <ul class="flexi f-left">
                     <li><a href="index.html" class="about-link link-title-big">~Scoots</a></li>

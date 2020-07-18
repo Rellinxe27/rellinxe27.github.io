@@ -1,0 +1,115 @@
+/********START Media Card (SERVICES)**************/
+.tours h2{
+    padding: 2.5rem 1rem 1rem;
+}
+
+.tours p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.tours .tours-container p{
+    font-size: 1rem;
+}
+
+.tours .tours-container a{
+    font-weight: 700;
+    color: #00458F;
+}
+
+.tours-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 2vh;
+    padding: 2.5rem 1rem 1.5rem 1rem;
+    color: #242424;
+}
+
+.area-card {
+    text-align: left;
+    box-shadow: 1px 1px 5px 1px #888;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+}
+
+.area-card:hover {
+    box-shadow: 1px 1px 5px 5px #888;
+}
+
+
+.area-card img{
+    width: 100%;
+}
+
+.area-card h3{
+    padding: 1rem;
+}
+
+.area-card .rating {
+    padding-left: 1rem;
+}
+
+.area-card .checked {
+    color: orange;
+}
+
+.area-card p{
+    padding: .5rem 1rem;
+    margin: 0;
+    text-align: left;
+}
+
+article footer {
+    background-color: transparent;
+    padding: 1rem 1rem 0;
+    position: relative;
+}
+
+.viewButton {
+    color: #888;
+    margin: 0px 0px 10px 10px;
+    padding: 10px;
+    border-top: 1px solid #888;
+    border-right: 0px;
+    border-bottom: 1px solid #888;
+    border-left: 1px solid #888;
+    border-radius: 2px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.editButton {
+    color: #888;
+    margin: 0px 0px 10px -4px;
+    padding: 10px;
+    border: 1px solid #888;
+    border-radius: 2px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.viewButton:hover,.editButton:hover {
+   background-color: #888;
+   color: black;
+   border: 1px solid #888;
+}
+
+@media only screen and (min-width: 35rem){
+    .tours{
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .tours-container {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 2vw;
+}
+
+    .tours-card {
+        text-align: left;
+    }
+}

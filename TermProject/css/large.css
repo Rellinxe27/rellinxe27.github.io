@@ -2,18 +2,52 @@
 
 header {
     font-size: 1.17em;
+    height: 4rem;
 }
 
-header nav .navigation li:first-child {
+ nav li:first-child {
+    display: flex;
+}
+
+nav button {
     display: none;
 }
 
-header nav .navigation {
+header .nav-wrapper{
+    position: inherit;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+nav ul.hide {
+    display: flex;
     flex-direction: row;
 }
 
-header nav .navigation li {
-    display: block;
+nav ul li {
+    border-bottom: none;
+}
+
+nav ul li.active a{
+    border-top: 3px solid #fff;
+}
+
+nav ul li a {
+    padding: .8rem;
+    color: #fff;
+    font-weight: 400;
+    border-bottom: none;
+    border-radius: 4px;
+    transition: all .2s ease-in-out;
+}
+
+header.scrolled nav ul li a{
+    color: #fff;
+}
+
+nav ul li a:hover{
+    color: #fff;
+    border-top: 3px solid #fff;
 }
 
 .text {
@@ -26,39 +60,54 @@ header nav .navigation li {
 /*hero*/
 
 .hero-text {
-    max-width: 60%;
+    display: block;
     margin: auto;
-    padding: 0;
+    padding: 5rem 1rem 0;
 }
 
 .hero-text h1 {
-    font-size: 4.625em;
+    font-size: 4.5em;
 }
 
 .hero-text p {
-    font-size: 1.17em;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 3.17em;
 }
 
 
 /*about*/
 
-.about {
+.aboutUs {
     padding: 4% 2% 2% 2%;
-    width: 60%;
+    width: 75%;
     margin: auto;
     grid-template-columns: auto auto;
     grid-template-rows: 1fr;
-    grid-column-gap: 2vw;
+    grid-column-gap: 5px;
 }
 
-.about img {
+.aboutUs img {
     margin-top: 0;
+    box-shadow: 0 2px 14px 3px #808080;
+}
+
+
+/******** START SERVICES*/
+section.services{
+    background-color: #F5F5F5;
+}
+
+section.services h2{
+    text-align: center;
 }
 
 .services-container {
-    width: 60%;
+    width: 75%;
     margin: auto;
     padding: 0 2% 4% 2%;
+    background-color: transparent;
 }
 
 
@@ -73,42 +122,50 @@ header nav .navigation li {
 }
 
 .current-conditions-grid {
-    max-width: 60%;
+    max-width: 75%;
     margin: auto;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     grid-column-gap: 2vw;
 }
 
+.current-conditions-grid h2:nth-child(2){
+    display: none;
+}
+
+.weather{
+    grid-template-columns: 1fr 1fr;
+    rid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    border: 1.5px solid rgba(0,0,0,0.125);
+    border-radius: 0.25rem;
+    background-color: white;
+    padding: 1rem;
+    color: #242424;
+    height: 22.5rem;
+}
+
+span.highlight,
+i.highlight{
+    color: #FF3300;
+    font-weight: 600;
+}
+
 
 /*adventures*/
 
 .gallery {
-    max-width: 60%;
     margin: auto;
     padding: 4% 0 4% 0;
 }
 
 .image-container {
+    max-width: 75%;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-
-/*testimonials*/
-
-.testimonials {
-    padding: 4% 0 4% 0;
-}
-
-.card-container {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 2vw;
-    width: 60%;
-    margin: 2% auto 0 auto;
-}
-
-
-/*Guides*/
+/*Tours*/
 
 .color {
     padding: 4% 2% 4% 2%;
@@ -124,7 +181,7 @@ header nav .navigation li {
 }
 
 
-/*reservation*/
+/*Reservations*/
 .reservation-form {
     max-width: 60%;
     margin: auto;
@@ -138,7 +195,7 @@ header nav .navigation li {
 }
 
 
-/*contact*/
+/*Contact*/
 
 .contact-form {
     max-width: 60%;
@@ -147,6 +204,10 @@ header nav .navigation li {
 }
 
 
-/*footer*/
-
+/*Footer*/
+.footer-top{
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
 }

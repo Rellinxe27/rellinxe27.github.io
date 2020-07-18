@@ -3,159 +3,296 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Salmon River Adventures | River Guides</title>
-    <meta name="description" content="Learn about Salmon River Adventures' river guides">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="Rellinxe" content="~Scoots website, motor scooter rental company in WDD 230-08: Final Project">
+    <title>~Scoots | Home</title>
+    <meta name="description" content="~Scoots motor scooter rental company homepage">
+
     <link rel="shortcut icon" href="images/favicon/favicon.ico">
-    <link rel="apple-touch-icon" href="images/favicon/apple-icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;1,300;1,600&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://unpkg.com/aos@2.3.0/dist/aos.css'>
+
+
+    <!-- STYLE SHEETS -->
+
+        <link href="css/small.css" rel="stylesheet"/>
+        <link href="css/medium.css" rel="stylesheet"/>
+        <link href="css/large.css" rel="stylesheet"/>
+        <link href="css/tours.css" rel="stylesheet"/>
+
+
     <script src="https://kit.fontawesome.com/0a5e9baade.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
     <header>
-        <a class="logo" href="index.html"> Salmon River Adventures</a>
-        <nav>
-            <ul class="navigation">
-                <li><a class="ham" href="# ">&#9776; Menu</a></li>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="rentals.html">Rentals</a></li>
-                <li><a href="reservations.html">Reservations</a></li>
-                <li class="active" ><a href="tours.html">Tours</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+        <a class="logo" href="index.html">~Scoots</a>
+            <nav>
+                <button onclick="toggleMenu()">&#9776; MENU</button>
+                <div class="nav-wrapper">
+                    <ul id="primaryNav" class="hide">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="rentals.html">Rentals</a></li>
+                        <li><a href="reservations.html">Reservations</a></li>
+                        <li class="active" ><a href="tours.html">Tours</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
     </header>
-
     <main>
-        <section class="subpage-hero">
-            <div class="hero-background lazy-bg-load" data-src="images/hero.jpg"></div>
+        <section class="hero">
+            <div class="hero-banner">
             <div class="hero-text">
-                <h1>Meet Our Guides</h1>
-                <p>Learn more about Salmon River Adventures' excellent river guides</p>
+                <h1 data-aos="fade-down">Get to know our featured places</h1>
+                <p>Where Blue meets Green.</p>
+            </div>
+            <picture >
+                    <source media="(max-width: 450px)" srcset="images/iberostar-cozumel_small.jpg" alt="iberostar cozumel">
+                    <source media="(max-width: 800px)" srcset="images/iberostar-cozumel_medium.jpg" alt="Iberostar cozumel">
+                    <img src="images/iberostar-cozumel_large.jpg" alt="Iberostar cozumel">
+            </picture>
             </div>
         </section>
-        <div class="color">
-            <h2>Current Staff</h2>
-            <div class="guides-container">
-                <div class="guide">
-                    <img id="pic1" src="#" alt="">
-                    <div class="guide-stats">
-                        <p id="name1"></p>
-                        <p id="email1"></p>
-                        <p>Certification: <span id="cert1"></span></p>
-                        <p>Experience: <span id="years1"></span></p>
-                    </div>
-                    <div class="guide-bio">
-                        <p id="bio1"></p>
-                    </div>
+<section class="tours">
+        <h2>Our areas gallery</h2>
+        <p>Check possible sites to visit and Cozumel island features</p>
+        <div class="tours-container">
+            <article data-aos="fade-down-left" class="area-card">
+                <img src="images/placeholder353.jpg" data-src="images/cozumel_punta.jpg" alt="cozumel punta">
+                <h3>Punta Sur</h3>
+                <div class="rating">
+                <span>4.3</span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span> (3450)</span>
                 </div>
-                <div class="guide">
-                    <img id="pic2" src="#" alt="">
-                    <div class="guide-stats">
-                        <p id="name2"></p>
-                        <p id="email2"></p>
-                        <p>Certification: <span id="cert2"></span></p>
-                        <p>Experience: <span id="years2"></span></p>
-                    </div>
-                    <div class="guide-bio">
-                        <p id="bio2"></p>
-                    </div>
+                <p>
+                    Punta Sur marks the southern point of Cozumel and is part of the Parque Punta Sur,
+                    a 247-acre (1.00 km2) ecological park that covers the reefs,
+                    beaches, lagoons, and low forest of the surrounding area.
+                    The reef system is also part of the Arrecifes...&nbsp;<a href="https://en.wikipedia.org/wiki/Punta_Sur">more</a>
+                </p>
+            </article>
+            <article  data-aos="flip-left" class="area-card">
+                <img src="images/placeholder353.jpg" data-src="images/Cozumel-scuba.png" alt="San Gervasio">
+                <h3>San Gervasio</h3>
+                <div class="rating">
+                <span>4.2</span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span> (557)</span>
                 </div>
-                <div class="guide">
-                    <img id="pic3" src="#" alt="">
-                    <div class="guide-stats">
-                        <p id="name3"> </p>
-                        <p id="email3"></p>
-                        <p>Certification: <span id="cert3"></span></p>
-                        <p>Experience: <span id="years3"></span></p>
-                    </div>
-                    <div class="guide-bio">
-                        <p id="bio3"></p>
-                    </div>
+                <p>
+                    San Gervasio is an archaeological site of the pre-Columbian Maya civilization,
+                    located in the northern third of
+                    the island of Cozumel off the northeastern coast of the Yucatán Peninsula,
+                    in what is now the Mexican state of Quintana Roo...&nbsp;<a href="https://en.wikipedia.org/wiki/San_Gervasio_(Maya_site)">more</a>
+                </p>
+            </article>
+            <article data-aos="fade-down-right" class="area-card">
+                <img src="images/placeholder353.jpg" data-src="images/Isla de Pasion.jpg" alt="Isla de Pasion">
+                <h3>Isla de Pasion</h3>
+                <div class="rating">
+                <span>4.5</span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span> (1250)</span>
                 </div>
-                <div class="guide">
-                    <img id="pic4" src="#" alt="">
-                    <div class="guide-stats">
-                        <p id="name4"> </p>
-                        <p id="email4"></p>
-                        <p>Certification: <span id="cert4"></span></p>
-                        <p>Experience: <span id="years4"></span></p>
-                    </div>
-                    <div class="guide-bio">
-                        <p id="bio4"></p>
-                    </div>
+                <p>
+                    Isla de Pasion Cozumel Mexico, is a Private Island off of Cozumel Mexico.
+                     Tourists pronounce it Passion Island, which would be correct when translated to English.
+                    Isla Pasion is an All Inclusive Beach Getaway to a Private Island known as...&nbsp;<a href="http://cozumelcruiseexcursions.net/passion-island-cozumel.html">more</a>
+                </p>
+            </article>
+
+            <article data-aos="flip-up" class="area-card">
+                <img src="images/placeholder353.jpg" data-src="images/Museum_Cozumel.jpg" alt="Museum of Cozumel">
+                <h3>Museum of Cozumel</h3>
+                <div class="rating">
+                <span>4.2</span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span> (2130)</span>
                 </div>
-            </div>
+                <p>
+                    The Cozumel Museum (Museo de la Isla de Cozumel) sits on the waterfront in downtown San Miguel de Cozumel.
+                    Inside the historical building are a wealth of displays,
+                    all well signed in both Spanish and English.
+                    Its four permanent exhibit...&nbsp;<a href="https://www.viator.com/Cozumel-attractions/Museum-of-the-Island-of-Cozumel/d632-a3231">more</a>
+                </p>
+            </article>
+
+            <article data-aos="flip-right" class="area-card">
+                <img src="images/placeholder353.jpg" data-src="images/Dolphinaris_Cozumel.png" alt="Dolphinaris Cozumel">
+                <h3>Dolphinaris Cozumel</h3>
+                <div class="rating">
+                <span>3.9</span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span> (186)</span>
+                </div>
+                <p>
+                    The Ocean Care Station at our Cozumel location offers a memorable interactive museum tour,
+                    so that you can uncover the secrets of the ocean and the keys to protecting its precious resources.
+                    Boasting sublime interconnected inlets, this location...&nbsp;<a href="https://cozumel.dolphinaris.com/location/dolphin-fun-in-cozumel/">more</a>
+                </p>
+            </article>
+            <article data-aos="flip-down" class="area-card">
+                <img src="images/placeholder353.jpg" data-src="images/Nachi-Cocom.jpg" alt="Nachi Cocom Cozumel Beach Club">
+                <h3>Nachi Cocom Cozumel Beach Club </h3>
+                <div class="rating">
+                <span>4.0</span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span> (925)</span>
+                </div>
+                <p>
+                    The Nachi Cocom Beach Club & Water Sports Center is a great
+                     place to relax during your time in Cozumel. Space for this unique Nachi
+                    Cocom Beach Club is limited to 100 guests per day, making it
+                    the most exclusive beach...&nbsp;<a href="https://www.cruisecritic.com/memberreviews/shore-excursions/excursion/3254/">more</a>
+                </p>
+            </article>
+            <article data-aos="zoom-in" class="area-card">
+                <img src="images/placeholder353.jpg" data-src="images/palancar-reef.jpg" alt="palancar reef">
+                <h3>palancar reef</h3>
+                <div class="rating">
+                <span>4.6</span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span> (2750)</span>
+                </div>
+                <p>
+                    Palancar Reef is a large coral reef on the southwest side of the island of Cozumel and is part
+                    of the Arrecifes de Cozumel National Park. The site, popular with scuba divers,
+                    is divided into several sections based on depth and coral formations...&nbsp;<a href="https://en.wikipedia.org/wiki/Palancar_Reef">more</a>
+                </p>
+            </article>
+            <article data-aos="zoom-in-down" class="area-card">
+                <img src="images/placeholder353.jpg" data-src="images/cruise-terminals.jpg" alt="cruise terminals">
+                <h3>Puerta Maya Pier</h3>
+                <div class="rating">
+                <span>4.2</span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span> (1050)</span>
+                </div>
+                <p>
+                    Puerta Maya’s expansive cruise center houses over 50 different outlets offering apparel, fine jewelry,
+                    artwork and other merchandise from such recognizable retailers as Milano Jewelers,
+                    Del Sol, Piranha Joe’s, Dufry, and Diamonds International.
+                    The facility...&nbsp;<a href="https://www.puertamaya.com/Port-Information.aspx">more</a>
+                </p>
+            </article>
+            <article data-aos="zoom-out" class="area-card">
+                <img src="images/placeholder353.jpg" data-src="images/national-marine-park.jpg" alt="national marine park">
+                <h3>National Marine Park</h3>
+                <div class="rating">
+                <span>4.1</span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span> (5100)</span>
+                </div>
+                <p>
+                    One of the most interesting natural attractions on Cozumel is Laguna Chankanaab,
+                    a small freshwater lake just seven kilometers south of San Miguel de Cozumel in the National Marine Park.
+                    Cut off from the sea (apart from a number)...&nbsp;<a href="https://www.planetware.com/tourist-attractions-/cozumel-mex-qr-coz.htm">more</a>
+                </p>
+            </article>
         </div>
-        <section class="text">
-            <h2>Want to become a guide?</h2>
-            <p>We currently have both part-time and full-time positions open. If you're committed to becoming a professional river guide for Salmon River Adventures, we offer two whitewater raft guide training programs in April and June. Check out the current
-                rafting news on the homepage for starting dates. But please remember, all dates are tentative based upon river water levels and conditions.</p>
-            <p>All training programs occur over four weekends and cover the State of Idaho Outfitters and Guides Licensing requirements. Such requirements include raft flipping, first aid & CPR, swimming in rapids, and much more. By signing up, you will
-                receive a training manual and a season pass to join any scheduled trips during that season. Give us a call, send an email, or complete our contact form to join a training program.</p><br>
-            <a href="contact.html.html"><span class="button">Contact Us</span></a>
         </section>
     </main>
 
+       <!-- ======================================================================= -->
+    <!-- START FOOTER -->
+    <!-- ======================================================================= -->
     <footer>
-        <div class="footer-div">
-            <div class="address">
-                <a class="logo" href="index.html">Salmon River Adventures</a>
-                <address>1-800-456-7890<br>
-                    1000 South Main St<br>
-                    Riggins, ID 83549</address>
-            </div>
-            <nav class="hide">
-                <h4>Navigation</h4>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a class="active" href="river-guide.html">River Guides</a></li>
-                    <li><a href="reservation.html">Reservations</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+        <div class="container">
+            <div class="footer-top">
+                <ul class="about f-left">
+                    <li><a href="index.html" class="about-link link-title">About</a></li>
+                    <li><a href="index.html" class="about-link">Home</a></li>
+                    <li><a href="index.html" class="about-link">Our services</a></li>
                 </ul>
-            </nav>
-            <div class="footer-links">
-                <h4>Explore</h4>
-                <ul>
-                    <li><a href="https://openweathermap.org/" target="_blank">OpenWeatherMap</a></li>
-                    <li><a href="https://unsplash.com/" target="_blank">Unsplash</a></li>
-                    <li><a href="https://rigginsidaho.com/" target="_blank">Visit Riggins</a></li>
-                    <li><a href="https://visitidaho.org/" target="_blank">Visit Idaho</a></li>
+                <ul class="information f-left">
+                    <li><a href="index.html" class="about-link link-title">Information</a></li>
+                    <li><a href="#" class="about-link">Privacy policy</a></li>
+                    <li><a href="#" class="about-link">Partner</a></li>
                 </ul>
+                <ul class="support f-left">
+                    <li><a href="#" class="about-link link-title">Support</a></li>
+                    <li><a href="contact.html" class="about-link">Contact us</a></li>
+                    <li><a href="contact.html" class="about-link">Report an issue</a></li>
+                </ul>
+                <ul class="flexi f-left">
+                    <li><a href="index.html" class="about-link link-title-big">~Scoots</a></li>
+                    <li>
+                        <p class="flexi-desc">Akuma # 574 between 20 and 30 Avenue Colonos Cuzamil
+                            Cozumel Q. Roo. <br>
+                            C.P 77664 Mexico
+                        </p>
+                    </li>
+                </ul>
+                <div class="clear-fix"></div>
             </div>
-            <div class="social-links">
-                <h4>Connect</h4>
-                <a href="https://www.facebook.com" target="_blank">
-                    <i class="fab fa-facebook-square"></i>
-                </a>
-                <a href="https://www.instagram.com" target="_blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://www.twitter.com" target="_blank">
-                    <i class="fab fa-twitter"></i>
-                </a>
-                <a href="https://www.youtube.com" target="_blank">
-                    <i class="fab fa-youtube"></i>
-                </a>
-            </div>
-            <div class="copyright">
-                <p>&copy; <span id="currentYearId"></span> Salmon River Adventures<br> Developed by Ellen Carlson.</p>
-            </div>
-            <div class="subscribe">
-                <h4>Subscribe</h4>
-                <form method="get" action="thanks.html">
-                    <input type="email" id="email" name="email" placeholder="yourname@email.com" required>
-                    <input type="submit" value=">">
-                </form>
+            <div class="footer-bottom">
+                <span class="copyright">Copyright &copy; <script src="js/scripts.js"></script>
+                    ~Scoots, all right reserved
+                    Designed and Developed by Rellinxe Boni ♥
+                </span>
+                <ul class="footer-social">
+                    <li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#" class="instagram"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="#" class="youtube"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="#" class="facebook"><i class="fab fa-facebook"></i></a></li>
+                </ul>
+                <div class="clear-fix"></div>
             </div>
         </div>
     </footer>
-    <script src="js/responsiveNav.js"></script>
-    <script src="js/footerDate.js"></script>
-    <script src="js/riverGuides.js"></script>
-    <script src="js/lazyLoad.js"></script>
+    <!-- ======================================================================= -->
+    <!-- END FOOTER -->
+    <!-- ======================================================================= -->
+
+    <script src='https://unpkg.com/aos@2.3.0/dist/aos.js'></script>
+    <script src="js/AOS.js"></script>
+
+    <script src="js/lazyloading.js"></script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="js/stickyNav.js"></script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/weather.js"></script>
     <script>
         WebFont.load({
             google: {
