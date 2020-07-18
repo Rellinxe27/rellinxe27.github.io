@@ -1,6 +1,5 @@
 {
     "guides": [{
-            "photo": "",
             "rental": "~Honda Metro Scooter",
             "maxPersons": "1",
             "reservHalfDays": "$20",
@@ -9,7 +8,6 @@
             "walkinFullDays": "$35",
         },
         {
-            "photo": "",
             "rental": "~Honda Dio Scooter",
             "maxPersons": "2",
             "reservHalfDays": "$30",
@@ -18,7 +16,6 @@
             "walkinFullDays": "$45",
         },
         {
-            "photo": "",
             "rental": "~Honda PCX150 Scooter",
             "maxPersons": "2",
             "reservHalfDays": "$40",
@@ -27,7 +24,6 @@
             "walkinFullDays": "$55",
         },
         {
-            "photo": "",
             "rental": "Honda Pioneer ATV",
             "maxPersons": "4",
             "reservHalfDays": "$50",
@@ -36,7 +32,6 @@
             "walkinFullDays": "$80",
         },
         {
-            "photo": "",
             "rental": "Jeep Wrangler - 4 door with a/c",
             "maxPersons": "5",
             "reservHalfDays": "$70",
@@ -45,7 +40,6 @@
             "walkinFullDays": "$125",
         },
         {
-            "photo": "",
             "rental": "Jeep Wrangler - 2 door",
             "maxPersons": "4",
             "reservHalfDays": "$60",
