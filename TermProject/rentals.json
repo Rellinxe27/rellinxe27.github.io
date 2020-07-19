@@ -2,50 +2,50 @@
     "guides": [{
             "name": "Honda Metro Scooter",
             "photo": "alex",
-            "email": "alex@SRAdventures.com",
-            "certification": "Advanced",
-            "years": "8 years",
+            "maxPersons": "1",
+            "halfDays": "half day",
+            "fullDays": "full day",
             "price": "$20"
         },
         {
             "name": "Honda Pioneer ATV",
             "photo": "lauren",
-            "email": "lauren@SRAdventures.com",
-            "certification": "Intermediate",
-            "years": "4 years",
+            "maxPersons": "4",
+            "halfDays": "half day",
+            "fullDays": "full day",
             "price": "$50"
         },
         {
             "name": "Jeep Wrangler - 4 door a/c",
             "photo": "mark",
-            "email": "mark@SRAdventures.com",
-            "certification": "Intermediate",
-            "years": "2 years",
+            "maxPersons": "5",
+            "halfDays": "half day",
+            "fullDays": "full day",
             "price": "$70"
         },
         {
             "name": "Honda PCX150 Scooter",
             "photo": "megan",
-            "email": "megan@SRAdventures.com",
-            "certification": "Advanced",
-            "years": "6 years",
+            "maxPersons": "2",
+            "halfDays": "half day",
+            "fullDays": "full day",
             "price": "$40"
         },
         {
             "name": "Honda Dio Scooter",
             "photo": "megan",
-            "email": "megan@SRAdventures.com",
-            "certification": "Advanced",
-            "years": "6 years",
+            "maxPersons": "2",
+            "halfDays": "half day",
+            "fullDays": "full day",
             "price": "$30"
         },
         {
             "name": "Jeep Wrangler - 2 door",
             "photo": "megan",
-            "email": "megan@SRAdventures.com",
-            "certification": "Advanced",
-            "years": "6 years",
+            "maxPersons": "4",
+            "halfDays": "half day",
+            "fullDays": "full day",
             "price": "$60"
         }               
-    ]
+    ] 
 }
