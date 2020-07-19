@@ -1,58 +1,35 @@
 {
     "guides": [{
-            "photo": "",
-            "rental": "~Honda Metro Scooter",
-            "maxPersons": "1",
-            "reservHalfDays": "$20",
-            "reservFullDays": "$30",
-            "walkinHalfDays": "$25",
-            "walkinFullDays": "$35",
+            "name": "Alex",
+            "photo": "alex",
+            "email": "alex@SRAdventures.com",
+            "certification": "Advanced",
+            "years": "8 years",
+            "biography": "Alex has rafted down rivers ever since 2000 when he was a small child on family vacations. He’s a strong believer that an excellent whitewater rafting trip begins with competent and responsible guides and he puts that belief into practice. When he’s not on the water, Alex likes hiking with his dog, competing in triathlons, and reading."
         },
         {
-            "photo": "",
-            "rental": "~Honda Dio Scooter",
-            "maxPersons": "2",
-            "reservHalfDays": "$30",
-            "reservFullDays": "$40",
-            "walkinHalfDays": "$35",
-            "walkinFullDays": "$45",
+            "name": "Lauren",
+            "photo": "lauren",
+            "email": "lauren@SRAdventures.com",
+            "certification": "Intermediate",
+            "years": "4 years",
+            "biography": "Lauren became a river guide four years ago after working a summer in our office. So far, she much prefers sitting in a raft to sitting at a desk, especially because she likes making customers feel at ease on amid rapids. In her spare time, you can find Lauren working out at the gym, longboarding, studying, or chilling with her friends."
         },
         {
-            "photo": "",
-            "rental": "~Honda PCX150 Scooter",
-            "maxPersons": "2",
-            "reservHalfDays": "$40",
-            "reservFullDays": "$50",
-            "walkinHalfDays": "$45",
-            "walkinFullDays": "$55",
+            "name": "Mark",
+            "photo": "mark",
+            "email": "mark@SRAdventures.com",
+            "certification": "Intermediate",
+            "years": "2 years",
+            "biography": "Mark has been rafting with Salmon River Adventures since passing his guide training with us in 2018. He enjoys taking whitewater rafting beginners out for their first ride because he likes the surprise of who will become a future adrenaline junkie. In his free time, Mark also enjoys computer coding, eating pizza, and camping with friends."
         },
         {
-            "photo": "",
-            "rental": "Honda Pioneer ATV",
-            "maxPersons": "4",
-            "reservHalfDays": "$50",
-            "reservFullDays": "$70",
-            "walkinHalfDays": "$60",
-            "walkinFullDays": "$80",
-        },
-        {
-            "photo": "",
-            "rental": "Jeep Wrangler - 4 door with a/c",
-            "maxPersons": "5",
-            "reservHalfDays": "$70",
-            "reservFullDays": "$100",
-            "walkinHalfDays": "$85",
-            "walkinFullDays": "$125",
-        },
-        {
-            "photo": "",
-            "rental": "Jeep Wrangler - 2 door",
-            "maxPersons": "4",
-            "reservHalfDays": "$60",
-            "reservFullDays": "$85",
-            "walkinHalfDays": "$70",
-            "walkinFullDays": "$90",
-
+            "name": "Megan",
+            "photo": "megan",
+            "email": "megan@SRAdventures.com",
+            "certification": "Advanced",
+            "years": "6 years",
+            "biography": "Although Megan has played a wide range of roles over the years, including working at a library and vet clinic, whitewater rafting is her passion. She’s been leading trips for Salmon River Adventures for the last six years with a focus on safety and fun. When she’s not floating the river, Megan enjoys watching tv with her husband and pets."
         }
     ]
 }
