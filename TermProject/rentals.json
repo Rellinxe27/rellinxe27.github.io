@@ -30,6 +30,22 @@
             "certification": "Advanced",
             "years": "6 years",
             "biography": "Although Megan has played a wide range of roles over the years, including working at a library and vet clinic, whitewater rafting is her passion. She’s been leading trips for Salmon River Adventures for the last six years with a focus on safety and fun. When she’s not floating the river, Megan enjoys watching tv with her husband and pets."
-        }
+        },
+        {
+            "name": "Megan",
+            "photo": "megan",
+            "email": "megan@SRAdventures.com",
+            "certification": "Advanced",
+            "years": "6 years",
+            "biography": "Although Megan has played a wide range of roles over the years, including working at a library and vet clinic, whitewater rafting is her passion. She’s been leading trips for Salmon River Adventures for the last six years with a focus on safety and fun. When she’s not floating the river, Megan enjoys watching tv with her husband and pets."
+        },
+        {
+            "name": "Megan",
+            "photo": "megan",
+            "email": "megan@SRAdventures.com",
+            "certification": "Advanced",
+            "years": "6 years",
+            "biography": "Although Megan has played a wide range of roles over the years, including working at a library and vet clinic, whitewater rafting is her passion. She’s been leading trips for Salmon River Adventures for the last six years with a focus on safety and fun. When she’s not floating the river, Megan enjoys watching tv with her husband and pets."
+        }               
     ]
 }
