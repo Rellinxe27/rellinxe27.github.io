@@ -14,5 +14,5 @@ fetch(jsonURL)
             document.getElementById(`halfday${i+1}`).textContent = jsObject.guides[i].halfDays;
             document.getElementById(`fullday${i+1}`).textContent = jsObject.guides[i].fullDays;
             document.getElementById(`pric${i+1}`).textContent = jsObject.guides[i].price;
-        }
+        } 
     }); 
