@@ -186,7 +186,8 @@ a button {
 }
 
 .hero-text h1{
-    padding: 1rem 1rem 0;
+    margin-top: .7rem;
+    padding:  0 1rem;
     font-size: 23px;
     color: #fff;
     font-weight: 600;
@@ -194,7 +195,7 @@ a button {
 }
 
 .hero-text p {
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
     font-size: 13px;
 }
 
@@ -390,7 +391,7 @@ i.highlight{
 }
 
 
-/*adventures***************/
+/*****START Tours ***************/
 
 .gallery {
     text-align: center;
@@ -446,6 +447,14 @@ figure img{
     text-transform: uppercase;
     font-weight: 600;
 }
+
+/**********START Rentals****************/
+
+.caption input{
+    margin-top: .6rem;
+    margin-right: .7rem;
+}
+
 
 /**********START Tours****************/
 
@@ -700,6 +709,12 @@ footer ul .link-title-big {
 footer ul .flexi-desc {
     color: #b1b1b1;
     font-style: italic;
+}
+
+#lastUpdated{
+    color: gold;
+    font-weight: 600;
+    text-align: center;
 }
 
 footer .footer-bottom {

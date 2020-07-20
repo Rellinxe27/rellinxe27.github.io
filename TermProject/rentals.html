@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <meta name="Rellinxe" content="~Scoots website, motor scooter rental company in WDD 230-08: Final Project">
-    <title>~Scoots | Home</title>
+    <title>~Scoots | Rentals</title>
     <meta name="description" content="~Scoots motor scooter rental company homepage">
 
     <link rel="shortcut icon" href="images/favicon/favicon.ico">
@@ -43,9 +43,8 @@
         <section class="hero">
             <div class="hero-banner">
             <div class="hero-text">
-                <h1 data-aos="fade-down">motor scooter rental company</h1>
-                <p>The most fun, safe, and affordable riding experience. </p>
-                <button data-aos="fade-left" type="button" onclick="location.href='reservations.html'">Reserve Now</button>
+                <h1 data-aos="fade-down">check out</h1>
+                <p>We have what you need for your excursion</p>
             </div>
             <picture >
                     <source media="(max-width: 450px)" srcset="images/Palancar_beach_small.jpg" alt="Palancar Beach">
@@ -56,86 +55,117 @@
         </section>
         <div class="table-container">
             <h2>Available Adventures</h2>
-            <p>Want to go whitewater rafting? Select from one of our three available adventure trips and then fill out the reservation form below.</p>
-            <table>
-                <tr>
-                    <th>Half Day</th>
-                    <th>Full Day</th>
-                    <th>Two Days</th>
-                </tr>
-                <tr>
-                    <td><i class="far fa-clock"></i>3-4 hours</td>
-                    <td><i class="far fa-clock"></i>6-8 hours</td>
-                    <td><i class="far fa-clock"></i>~16 hours</td>
-                </tr>
-                <tr>
-                    <td><i class="fas fa-graduation-cap"></i>Beginner</td>
-                    <td><i class="fas fa-graduation-cap"></i>Intermediate</td>
-                    <td><i class="fas fa-graduation-cap"></i>Advanced</td>
-                </tr>
-                <tr>
-                    <td><i class="fas fa-tag"></i>$69/person</td>
-                    <td><i class="fas fa-tag"></i>$89/person</td>
-                    <td><i class="fas fa-tag"></i>$169/person</td>
-                </tr>
-            </table>
-        </div>
-        <div class="reservation-form">
-            <form method="get" action="thanks.html">
-                <fieldset>
-                    <legend>Trip Information</legend>
-                    <label class="top ">Adventure Selection<input list="adventureSelection" name="adventureSelection" required>
-                            <datalist id="adventureSelection">
-                                <option value="Half Day Trip">Half Day Trip</option>
-                                <option value="Full Day Trip">Full Day Trip</option>
-                                <option value="Two Day Trip">Two Day Trip</option>
-                            </datalist>
-                        </label>
-                    <label class="top">Trip Date <input type="date" name="tripDate" required></label>
-                    <label class="top">Departure Time<input list="tripTime" name="tripTime">
-                            <datalist id="tripTime">
-                                <option value="8:00AM">8:00AM</option>
-                                <option value="10:00AM">10:00AM</option>
-                                <option value="12:00PM">12:00PM</option>
-                            </datalist>
-                        </label>
-                </fieldset>
-                <fieldset>
-                    <legend>Attendees</legend>
-                    <label class="top">Adults (18+ years)<input list="adultList" name="adultList" required>
-                            <datalist id="adultList">
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                            </datalist>
-                        </label>
-                    <label class="top">Youth<input list="youthList" name="youthList" required>
-                            <datalist id="youthList">
-                                <option value="1">1</option>
-                                 <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                            </datalist>
-                        </label>
-                </fieldset>
-                <fieldset>
-                    <legend>Contact Information</legend>
-                    <label class="top">Full Name *<input type="text" name="fullName" pattern="[A-Za-z ]{5,}" required></label>
+            <p>Want to go on exploration ? Select from  our available plans trip (Complete table on reservations page).</p>
+    <table>
+    <tbody>
+    <tr>
+        <th>Rental Types</th>
+        <th>Half Day (3 hrs)</th>
+        <th>Full Day</th>
+    </tr>
+    </tbody>
 
-                    <label class="top">Email<input type="email" name="email" placeholder="someone@email.com"></label>
-
-                    <label class="top">Phone *<input type="tel" name="phone" placeholder="1235551234" required></label>
-                </fieldset>
-                <fieldset>
-                    <legend>Additional Information</legend>
-                    <label class="top">Comments / Questions<textarea name="additionalInfo"></textarea></label>
-                </fieldset>
-                <input type="submit" value="Submit">
-            </form>
+    <tbody>
+    <tr>
+        <td>~Honda Metro Scooter</td>
+        <td>$20</td>
+        <td>$30</td>
+    </tr>
+    <tr>
+        <td>~Honda Dio Scooter</td>
+        <td>$30</td>
+        <td>$40</td>
+    </tr>
+    <tr>
+        <td>~Honda PCX150 Scooter</td>
+        <td>$40</td>
+        <td>$50</td>
+    </tr>
+    <tr>
+        <td>Honda Pioneer ATV</td>
+        <td>$50</td>
+        <td>$70</td>
+    </tr>
+    <tr>
+        <td>Jeep Wrangler - 4 doors with a/c</td>
+        <td>$70</td>
+        <td>$100</td>
+    </tr>
+    <tr>
+        <td>Jeep Wrangler - 2 doors</td>
+        <td>$60</td>
+        <td>$85</td>
+    </tr>
+    </tbody>
+</table>
         </div>
+        <section class="gallery">
+            <h2 data-aos="fade-left">Our various rentals</h2>
+            <p data-aos="fade-left">choose and we provide the safety</p>
+            <div class="image-container">
+                <figure data-aos="zoom-out-down">
+                    <img src="images/placeholder317.jpg" data-src="images/scooter.jpg" alt="Honda Scooter">
+                    <div class="caption">
+                        <h3 id="name">Honda Metro Scooter</h3>
+
+                        <input type="radio" name="rentType" value="half day">half day
+                        <input type="radio" name="rentType" value="full day">full day
+                        <p><i class="fas fa-tag"></i> $20 / person</p>
+                    </div>
+                    <button type="button" onclick="location.href='reservations.html'">Reserve </button>
+                </figure>
+                <figure data-aos="flip-left">
+                    <img src="images/placeholder317.jpg" data-src="images/ATV.jpg" alt="Pioner ATV">
+                    <div class="caption">
+                        <h3 id="name2">Honda Pioneer ATV</h3>
+                        <input type="radio" name="rentType" value="half day">half day
+                        <input type="radio" name="rentType" value="full day">full day
+                        <p><i class="fas fa-tag"></i> $50 / 4 persons</p>
+                    </div>
+                    <button type="button" onclick="location.href='reservations.html'">Reserve</button>
+                </figure>
+                <figure data-aos="zoom-out-right">
+                    <img src="images/placeholder317.jpg" data-src="images/jeep-wrangler.jpg" alt="Jeep Wrangler 4 door a/c">
+                    <div class="caption">
+                        <h3>Jeep Wrangler - 4 door a/c</h3>
+                        <input type="radio" name="rentType" value="half day">half day
+                        <input type="radio" name="rentType" value="full day">full day
+                        <p><i class="fas fa-tag"></i> $70 / 5 persons</p>
+                    </div>
+                    <button type="button" onclick="location.href='reservations.html'">Reserve</button>
+                </figure>
+                <figure data-aos="zoom-out-down">
+                    <img src="images/placeholder317.jpg" data-src="images/Honda-PCX150-Scooter.jpg" alt="Honda PCX150 Scooter">
+                    <div class="caption">
+                        <h3>Honda PCX150 Scooter</h3>
+                        <input type="radio" name="rentType" value="half day">half day
+                        <input type="radio" name="rentType" value="full day">full day
+                        <p><i class="fas fa-tag"></i> $40 / 2 person</p>
+                    </div>
+                    <button type="button" onclick="location.href='reservations.html'">Reserve </button>
+                </figure>
+                <figure data-aos="flip-left">
+                    <img src="images/placeholder317.jpg" data-src="images/honda-dio.jpg" alt="Honda Dio Scooter">
+                    <div class="caption">
+                        <h3>Honda Dio Scooter</h3>
+                        <input type="radio" name="rentType" value="half day">half day
+                        <input type="radio" name="rentType" value="full day">full day
+                        <p><i class="fas fa-tag"></i> $30 / 2 persons</p>
+                    </div>
+                    <button type="button" onclick="location.href='reservations.html'">Reserve</button>
+                </figure>
+                <figure data-aos="zoom-out-right">
+                    <img src="images/placeholder317.jpg" data-src="images/Jeep-Wrangler-2-Door.png" alt="Jeep Wrangler 2 door">
+                    <div class="caption">
+                        <h3>Jeep Wrangler - 2 door</h3>
+                        <input type="radio" name="rentType" value="half day">half day
+                        <input type="radio" name="rentType" value="full day">full day
+                        <p><i class="fas fa-tag"></i> $60 / persons</p>
+                    </div>
+                    <button type="button" onclick="location.href='reservations.html'">Reserve</button>
+                </figure>
+            </div>
+        </section>
     </main>
 
      <!-- ======================================================================= -->
@@ -171,6 +201,11 @@
                 </ul>
                 <div class="clear-fix"></div>
             </div>
+            <p id="lastUpdated">Last Updated:
+                <script>
+                     document.write(document.lastModified);
+                </script>
+            </p>
             <div class="footer-bottom">
                 <span class="copyright">Copyright &copy; <script src="js/scripts.js"></script>
                     ~Scoots, all right reserved
@@ -190,6 +225,8 @@
     <!-- ======================================================================= -->
     <!-- END FOOTER -->
     <!-- ======================================================================= -->
+
+    <script src="js/rentals.js"></script>
 
     <script src='https://unpkg.com/aos@2.3.0/dist/aos.js'></script>
     <script src="js/AOS.js"></script>

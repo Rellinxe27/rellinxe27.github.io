@@ -30,11 +30,11 @@
                 <button onclick="toggleMenu()">&#9776; MENU</button>
                 <div class="nav-wrapper">
                     <ul id="primaryNav" class="hide">
-                        <li class="active" ><a href="index.html">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="rentals.html">Rentals</a></li>
                         <li><a href="reservations.html">Reservations</a></li>
                         <li><a href="tours.html">Tours</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li class="active" ><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
             </nav>
@@ -43,9 +43,8 @@
         <section class="hero">
             <div class="hero-banner">
             <div class="hero-text">
-                <h1 data-aos="fade-down">motor scooter rental company</h1>
-                <p>The most fun, safe, and affordable riding experience. </p>
-                <button data-aos="fade-left" type="button" onclick="location.href='reservations.html'">Reserve Now</button>
+                <h1 data-aos="fade-down">let's connect</h1>
+                <p>Feel free to contact us at anytime.</p>
             </div>
             <picture >
                     <source media="(max-width: 450px)" srcset="images/Palancar_beach_small.jpg" alt="Palancar Beach">
@@ -126,6 +125,11 @@
                 </ul>
                 <div class="clear-fix"></div>
             </div>
+            <p id="lastUpdated">Last Updated:
+                <script>
+                     document.write(document.lastModified);
+                </script>
+            </p>
             <div class="footer-bottom">
                 <span class="copyright">Copyright &copy; <script src="js/scripts.js"></script>
                     ~Scoots, all right reserved

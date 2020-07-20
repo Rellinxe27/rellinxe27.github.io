@@ -6,7 +6,7 @@
             "reservHalfDays": "$20",
             "reservFullDays": "$30",
             "walkinHalfDays": "$25",
-            "walkinFullDays": "$35",
+            "walkinFullDays": "$35"
         },
         {
             "photo": "",
@@ -15,7 +15,7 @@
             "reservHalfDays": "$30",
             "reservFullDays": "$40",
             "walkinHalfDays": "$35",
-            "walkinFullDays": "$45",
+            "walkinFullDays": "$45"
         },
         {
             "photo": "",
@@ -24,7 +24,7 @@
             "reservHalfDays": "$40",
             "reservFullDays": "$50",
             "walkinHalfDays": "$45",
-            "walkinFullDays": "$55",
+            "walkinFullDays": "$55"
         },
         {
             "photo": "",
@@ -33,7 +33,7 @@
             "reservHalfDays": "$50",
             "reservFullDays": "$70",
             "walkinHalfDays": "$60",
-            "walkinFullDays": "$80",
+            "walkinFullDays": "$80"
         },
         {
             "photo": "",
@@ -42,7 +42,7 @@
             "reservHalfDays": "$70",
             "reservFullDays": "$100",
             "walkinHalfDays": "$85",
-            "walkinFullDays": "$125",
+            "walkinFullDays": "$125"
         },
         {
             "photo": "",
@@ -51,7 +51,7 @@
             "reservHalfDays": "$60",
             "reservFullDays": "$85",
             "walkinHalfDays": "$70",
-            "walkinFullDays": "$90",
+            "walkinFullDays": "$90"
 
         }
     ]
