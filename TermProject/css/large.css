@@ -135,8 +135,6 @@ section.services h2{
 
 .weather{
     grid-template-columns: 1fr 1fr;
-    rid-template-rows: 1fr 1fr;
-    justify-items: center;
     align-items: center;
     border: 1.5px solid rgba(0,0,0,0.125);
     border-radius: 0.25rem;

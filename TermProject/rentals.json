@@ -4,9 +4,9 @@
             "rental": "~Honda Metro Scooter",
             "maxPersons": "1",
             "reservHalfDays": "$20",
-            "reservFullDays": "$30",
+            "reservFullDays": "$30", 
             "walkinHalfDays": "$25",
-            "walkinFullDays": "$35"
+            "walkinFullDays": "$35"  
         },
         {
             "photo": "",
